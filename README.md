@@ -20,13 +20,16 @@ A community blocklist with **190,000+ unique items**, updated automatically ever
 
 ## Contribute your own blocks
 
-Publish your instance's own blocks to a GitHub Gist so they can be included here.
+Publish your instance's own blocks to a GitHub Gist so they can be included here. You'll need access to your instance's Dashboard and some locally recorded blocks.
 
-1. [Create a fine-grained GitHub token](https://github.com/settings/personal-access-tokens/new). Name it `AIOStreams blocklist`, choose your personal account as **Resource owner**, and set an expiration. Under **Account permissions**, grant **Gists → Read and write**, then generate and copy the token. No repository permissions are needed. Keep the token private and replace it in AIOStreams before it expires. [GitHub token guide](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token).
-2. In **Dashboard → Blocklists → Publishing**, click **Add target** and choose **GitHub Gist**.
-3. Enter a name, set the push interval to **6 hours**, and paste your token. Leave **Gist ID** blank. Under **Files to push**, choose **native** format and **local (own verdicts)** scope. Use local so you contribute your own blocks without republishing subscribed lists.
-4. Click **Add target**, then the target's **Push now** upload button. Once it succeeds, click the copy icon beside `blocklist-local.ndjson` to copy its shareable URL. AIOStreams will keep the Gist updated on your chosen interval. Public visibility is optional; secret Gists also work, and anyone with their URL can read them.
-5. [Open an issue](https://github.com/thetoadsage/aiostreams-blocklist/issues/new) with that URL, or submit a pull request adding it to [sources.json](sources.json). Share the list URL only, never your token.
+1. [Create a fine-grained GitHub token](https://github.com/settings/personal-access-tokens/new). Name it `AIOStreams blocklist`, choose **your own personal account** as **Resource owner**, and set an expiration.
+2. Leave **Repository access → Public repositories** selected. Under **Permissions → Account**, click **Add permissions**, select **Gists**, and set its access to **Read and write**. Click **Generate token** and copy it. No repository write permissions are needed.
+3. In **Dashboard → Blocklists → Publishing**, click **Add target** and choose **GitHub Gist**.
+4. Enter a name, set the push interval to **6 hours**, and paste your token into **GitHub token**. Leave **Gist ID** blank so AIOStreams creates it. Under **Files to push**, choose **native** format and **local (own verdicts)** scope. Local shares your own blocks without republishing subscribed lists. **Create as public gist** is optional; secret Gists also work and are readable by anyone with their URL.
+5. Click **Add target**, then the target's **Push now** upload button. Wait for **Pushed 1/1 file**, then click the copy icon beside `blocklist-local.ndjson` in that target's row. Keep the target **Enabled** for automatic updates.
+6. [Open an issue](https://github.com/thetoadsage/aiostreams-blocklist/issues/new) with the copied list URL, or submit a pull request adding it to [sources.json](sources.json). Share the URL only, never your token.
+
+Keep your token private and replace it in AIOStreams before it expires. [GitHub token guide](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token).
 
 <details>
 <summary>GitHub token setup screenshots</summary>
@@ -48,15 +51,15 @@ Set Gists access to **Read and write**, then click **Generate token**. Copy the 
 <details>
 <summary>AIOStreams publishing screenshots</summary>
 
-Open Publishing and click **Add target**:
+Open Publishing and click **Add target**. The existing target shown in these screenshots uses **2h**; use **6 hours** when creating your new target as described above.
 
 ![Blocklist Publishing page with Add target and the Publishing sidebar icon highlighted](docs/images/blocklist-publishing.png)
 
-Set up a GitHub Gist target with **native** format and **local (own verdicts)** scope:
+Set up a GitHub Gist target with a **6-hour** interval, **native** format and **local (own verdicts)** scope. The token field is blank in this example; paste your generated token there. Leave **Gist ID** blank.
 
 <img src="docs/images/add-publish-target.png" width="500" alt="Add publish target form with GitHub Gist, a six-hour interval, a blank token and Gist ID, native format and local scope">
 
-Click **Push now** (1). After a successful push, copy the list URL using the icon beside `blocklist-local.ndjson` (2):
+Click **Push now** (1). When Status shows **Pushed 1/1 file**, copy the list URL using the icon beside `blocklist-local.ndjson` (2), in your Gist target's row.
 
 ![Successful GitHub Gist target with Push now and the copy list URL icon highlighted](docs/images/push-and-copy-gist.png)
 
