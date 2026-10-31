@@ -44,6 +44,29 @@ class AggregationTests(unittest.TestCase):
             with self.subTest(body=body), self.assertRaises(Exception):
                 aggregate.parse(body)
 
+    def test_baseline_retained_when_sources_remove_entries(self):
+        original = row(hosts=['original.example'], n=4)
+        added = {**row(), 'k': 'nh1:' + 'b' * 40}
+        first = aggregate.with_baseline([original], [row(hosts=['new.example'], n=2), added])
+        self.assertEqual(len(first), 2)
+        saved = next(r for r in first if r['k'] == KEY)
+        self.assertEqual(saved['bk'], ['new.example', 'original.example'])
+        self.assertEqual(saved['n'], 4)
+        # Removing the baseline key upstream never removes the original block.
+        self.assertEqual(aggregate.with_baseline([original], [added]), aggregate.merge([[original, added]]))
+        self.assertEqual(first, aggregate.with_baseline([original], [row(hosts=['new.example'], n=2), added]))
+
+    def test_corrupt_baseline_fails_before_fetching(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            path = root / aggregate.BASELINE_FILE
+            path.parent.mkdir()
+            path.write_bytes(gzip.compress(b'changed'))
+            with mock.patch.object(aggregate, 'ROOT', root), mock.patch.object(aggregate, 'fetch') as fetch:
+                with self.assertRaisesRegex(ValueError, 'checksum mismatch'):
+                    aggregate.main()
+                fetch.assert_not_called()
+
     def test_source_failure_keeps_published_files_unchanged(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -54,7 +77,7 @@ class AggregationTests(unittest.TestCase):
                 if url.endswith('/a'):
                     return [row()]
                 raise ValueError('source unavailable')
-            with mock.patch.object(aggregate, 'ROOT', root), mock.patch.object(aggregate, 'fetch', fetch):
+            with mock.patch.object(aggregate, 'ROOT', root), mock.patch.object(aggregate, 'fetch', fetch), mock.patch.object(aggregate, 'load_baseline', return_value=[row()]):
                 with self.assertRaisesRegex(RuntimeError, 'Published files unchanged'):
                     aggregate.main()
             for name in ['blocklist-all.ndjson', 'blocklist-all.ndjson.gz', 'manifest.json']:
@@ -65,14 +88,14 @@ class AggregationTests(unittest.TestCase):
             root = Path(directory)
             (root / 'sources.json').write_text('["https://example.com/a"]')
             rows = [row(), {**row(), 'k': 'nh1:' + 'b' * 40}]
-            with mock.patch.object(aggregate, 'ROOT', root), mock.patch.object(aggregate, 'fetch', return_value=rows):
+            with mock.patch.object(aggregate, 'ROOT', root), mock.patch.object(aggregate, 'fetch', return_value=rows), mock.patch.object(aggregate, 'load_baseline', return_value=[row()]):
                 aggregate.main()
             plain = (root / 'blocklist-all.ndjson').read_bytes()
             self.assertEqual(gzip.decompress((root / 'blocklist-all.ndjson.gz').read_bytes()), plain)
             self.assertEqual(len(aggregate.parse(plain)), 2)
             manifest = json.loads((root / 'manifest.json').read_text())
             self.assertEqual(manifest['entries'], 2)
-            self.assertEqual(manifest['aggregation']['mode'], 'mirror')
+            self.assertEqual(manifest['aggregation']['mode'], 'baseline-plus-mirror')
 
 
 if __name__ == '__main__':

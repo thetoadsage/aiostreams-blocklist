@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Mirror configured public blocklists into one deduplicated native export."""
+"""Preserve the original baseline and combine it with current public sources."""
 import concurrent.futures
 import gzip
+import hashlib
 import io
 import json
 import math
@@ -17,6 +18,15 @@ SEVERITY = {'defective': 1, 'dead': 2, 'mislabeled': 3, 'fake': 4}
 MAX_DOWNLOAD = 64 * 1024 * 1024
 MAX_DECOMPRESSED = 256 * 1024 * 1024
 CAP = 1_000_000_000
+BASELINE_FILE = 'baseline/original.ndjson.gz'
+BASELINE_SHA256 = '5816235d98fd2e8735c5d08acc19932b2bf388e35a63032d52a322857c9b95f9'
+
+
+def load_baseline():
+    data = gzip.decompress((ROOT / BASELINE_FILE).read_bytes())
+    if hashlib.sha256(data).hexdigest() != BASELINE_SHA256:
+        raise ValueError('Original baseline checksum mismatch; published files unchanged')
+    return parse(data)
 
 
 def integer(value, fallback, low, high):
@@ -110,7 +120,20 @@ def serialize(records):
     return ('\n'.join(json.dumps(row, separators=(',', ':')) for row in [header, *rows]) + '\n').encode()
 
 
+def with_baseline(baseline, current):
+    records = merge([baseline, current])
+    # The baseline already aggregates historical upstream observations. Adding
+    # its counts to current upstream counts would count overlapping evidence twice.
+    counts = {}
+    for row in [*baseline, *current]:
+        counts[row['k']] = max(counts.get(row['k'], 0), row['n'])
+    for row in records:
+        row['n'] = counts[row['k']]
+    return records
+
+
 def main():
+    baseline = load_baseline()
     urls = json.loads((ROOT / 'sources.json').read_text())
     if not isinstance(urls, list) or not urls or any(not isinstance(url, str) for url in urls):
         raise ValueError('Expected a nonempty list of source URLs')
@@ -127,12 +150,15 @@ def main():
                 errors.append(f'{url}: {error}')
     if errors:
         raise RuntimeError('Published files unchanged; failed sources:\n' + '\n'.join(errors))
-    records = merge(groups)
+    records = with_baseline(baseline, merge(groups))
     with tempfile.TemporaryDirectory() as directory:
         export = Path(directory) / 'aggregate.ndjson'
         export.write_bytes(serialize(records))
         files, manifest = update.prepare(export)
-    manifest['aggregation'] = {'mode': 'mirror', 'source_count': len(urls), 'sources': urls}
+    manifest['aggregation'] = {
+        'mode': 'baseline-plus-mirror', 'source_count': len(urls), 'sources': urls,
+        'baseline': {'file': BASELINE_FILE, 'entries': len(baseline), 'sha256': BASELINE_SHA256},
+    }
     # No published files are touched until every source and the result validate.
     for name, body in files.items():
         (ROOT / name).write_bytes(body)

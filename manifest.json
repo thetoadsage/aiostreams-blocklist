@@ -1,27 +1,27 @@
 {
   "format": "AIOStreams native NDJSON v1",
   "scope": "all",
-  "header_updated": 1793344160,
-  "entries": 161411,
+  "header_updated": 1793390060,
+  "entries": 184156,
   "key_types": {
-    "nh1": 5919,
-    "wd1": 155492
+    "nh1": 5963,
+    "wd1": 178193
   },
   "verdicts": {
-    "dead": 161411
+    "dead": 184156
   },
   "files": {
     "blocklist-all.ndjson": {
-      "bytes": 25275048,
-      "sha256": "963bc83fc34547a564c385cb1cdda6781823de09f3251d885eb90b20016d76f4"
+      "bytes": 30156624,
+      "sha256": "0889d742f7d21d9c9eaeb2b7af94eff418d57e7c7b1d5e367771537d0674131f"
     },
     "blocklist-all.ndjson.gz": {
-      "bytes": 4313635,
-      "sha256": "4454f6215cf21def6aeb272a0e789cc74abd398fcb04acbd9218444d0e7ea1b4"
+      "bytes": 5007845,
+      "sha256": "28edbfb4358de883b5d7cfd24a10b0733794d8de78d14fce38e321d0e6f9cd54"
     }
   },
   "aggregation": {
-    "mode": "mirror",
+    "mode": "baseline-plus-mirror",
     "source_count": 30,
     "sources": [
       "https://raw.githubusercontent.com/Crypt1c1337/nzbdwarden/main/warden/warden.ndjson.gz",
@@ -54,6 +54,11 @@
       "https://gist.githubusercontent.com/rowB-blocklist/20c4a9c6cb8aab0fb27163df8ddd71ae/raw/blocklist-local.ndjson",
       "https://gist.githubusercontent.com/rubenblades/fdd47ca33358133b39ccb5ff5afd0321/raw/blocklist-local.ndjson",
       "https://gist.githubusercontent.com/yoshitaka420/3eb647eeb96d719eecfb5b52462233ea/raw/blocklist-local.ndjson"
-    ]
+    ],
+    "baseline": {
+      "file": "baseline/original.ndjson.gz",
+      "entries": 184074,
+      "sha256": "5816235d98fd2e8735c5d08acc19932b2bf388e35a63032d52a322857c9b95f9"
+    }
   }
 }

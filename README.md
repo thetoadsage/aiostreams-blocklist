@@ -1,8 +1,8 @@
 # AIOStreams blocklist
 
-An automatically updated, deduplicated aggregate of the public blocklists in [sources.json](sources.json). GitHub Actions checks the sources **every six hours**, converts native and Warden records into native AIOStreams NDJSON, and commits only changed output. No server credentials or personal access token are needed.
+An automatically updated, deduplicated aggregate of the **original 184,074-entry export plus** the public blocklists in [sources.json](sources.json). GitHub Actions checks the sources **every six hours**, converts native and Warden records into native AIOStreams NDJSON, and commits only changed output. No server credentials or personal access token are needed.
 
-This is a **mirror**: entries disappear when no configured source contains them anymore. The original uploaded export remains preserved in [the initial backup commit](https://github.com/thetoadsage/aiostreams-blocklist/tree/b2961abb07578a9ce4f9a9d6499185fc01db86d6). It contained 184,074 unique keys. The current count, key types, verdicts, and SHA-256 hashes are in [manifest.json](manifest.json).
+Every original entry is a **permanent baseline**, stored in [baseline/original.ndjson.gz](baseline/original.ndjson.gz) and verified against its original SHA-256 before each update. Updates merge current sources on top of that baseline. Source corrections can remove entries added later, but never remove original baseline entries. The original uploaded export remains preserved in [the initial backup commit](https://github.com/thetoadsage/aiostreams-blocklist/tree/b2961abb07578a9ce4f9a9d6499185fc01db86d6). It contained 184,074 unique keys. The current count, key types, verdicts, and SHA-256 hashes are in [manifest.json](manifest.json).
 
 ## Use in AIOStreams
 
@@ -30,7 +30,7 @@ Each run:
 
 1. Downloads every enabled source, retrying failures, with size and timeout limits.
 2. Validates every source. Empty, malformed, or unavailable sources **fail the entire update**, leaving the published list unchanged. Check failed runs on the Actions page; a persistently unavailable source must be repaired or deliberately removed from `sources.json`.
-3. Rebuilds the aggregate from current sources, without feeding the previous aggregate back into itself. Following AIOStreams' deduplication rules, repeated keys use the strongest verdict, newest observation timestamp, capped sum of observation counts, and combined provider scopes. An unrestricted scope overrides narrower scopes. Counts are not independent-source trust votes.
+3. Rebuilds the current-source aggregate and merges it with the permanent original baseline, without feeding the previous output back into itself. Following AIOStreams' deduplication rules, repeated keys use the strongest verdict, newest observation timestamp, capped sum of observation counts, and combined provider scopes. An unrestricted scope overrides narrower scopes. When combining the original baseline with current sources, observation counts use the larger of the two counts to avoid double-counting historical evidence. Counts are not independent-source trust votes.
 4. Validates the result, creates a compressed copy and integrity manifest, and commits only if files changed.
 
 There are 30 enabled sources initially. Three supplied URLs returned HTTP 404 during setup and are recorded in [disabled-sources.json](disabled-sources.json): `mattskiiau`, `0-nj`, and `Febsho`. They are not fetched automatically; add working replacement URLs to `sources.json` to enable them. The escaped URLs from the supplied list were cleaned up, and the `chrs-alt-esc` and `fourpoint8` Gist URLs now follow the latest revision instead of fixed historical revisions.
@@ -52,7 +52,7 @@ git commit -m "Update aggregated blocklist"
 git push
 ```
 
-`scripts/update.py /path/to/blocklist-all.ndjson` remains available to validate and copy a manually exported native snapshot. The next automatic run replaces that snapshot with the current configured-source aggregate.
+`scripts/update.py /path/to/blocklist-all.ndjson` remains available to validate and copy a manually exported native snapshot. The next automatic run replaces that snapshot with the permanent baseline plus the current configured-source aggregate.
 
 ## Original backup and integrity
 
