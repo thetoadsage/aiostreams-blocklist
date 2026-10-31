@@ -2,27 +2,27 @@
   "format": "AIOStreams native NDJSON v1",
   "scope": "all",
   "header_updated": 1793390060,
-  "entries": 192681,
+  "entries": 193014,
   "key_types": {
-    "nh1": 5963,
-    "wd1": 186718
+    "nh1": 6079,
+    "wd1": 186935
   },
   "verdicts": {
-    "dead": 192681
+    "dead": 193014
   },
   "files": {
     "blocklist-all.ndjson": {
-      "bytes": 31317619,
-      "sha256": "a1cb071f35152ef051c17df27572baebaed05228c5102772f64165690e341178"
+      "bytes": 31379601,
+      "sha256": "030c91928f13d3f33b57f413b1ed03d2512d1061fc704e8c2955842281592c98"
     },
     "blocklist-all.ndjson.gz": {
-      "bytes": 5192543,
-      "sha256": "65bee2c3405c0b601f98f12790023b553aec3f7a9bde6ce2a121800815f8fe46"
+      "bytes": 5205104,
+      "sha256": "e68757de71f8afa37fc293ee55dc2b916b034c7384a67ee7fb6d28b8e65e20e8"
     }
   },
   "aggregation": {
     "mode": "baseline-plus-mirror",
-    "source_count": 34,
+    "source_count": 37,
     "sources": [
       "https://raw.githubusercontent.com/Crypt1c1337/nzbdwarden/main/warden/warden.ndjson.gz",
       "https://raw.githubusercontent.com/GodlyXFerrris/ndjson-snapshots/main/warden/warden.ndjson.gz",
@@ -57,7 +57,10 @@
       "https://gist.githubusercontent.com/thetoadsage/1597a892e6b19e19cdf8ceb34c56224f/raw/blocklist-local.ndjson",
       "https://gist.githubusercontent.com/chrs-alt-esc/33016d6712d9046627997ad8e6e2c78a/raw/58c137f9f2c344f362893c246590e15ceccea51e/blocklist-local.ndjson",
       "https://raw.githubusercontent.com/digi-banana/warden-dead-releases/main/warden/warden.ndjson.gz",
-      "https://raw.githubusercontent.com/tweakapps/davex-warden-backup/main/warden/warden.ndjson.gz"
+      "https://raw.githubusercontent.com/tweakapps/davex-warden-backup/main/warden/warden.ndjson.gz",
+      "https://gist.githubusercontent.com/Boxfiller/65b5aefee97756f59a4f583fd111c94e/raw/blocklist-local.ndjson",
+      "https://gist.githubusercontent.com/anysmoke/a106a4b298bf737226788ff1c322f801/raw/blocklist-local-warden.ndjson",
+      "https://gist.githubusercontent.com/ashipaek0/13904161365160ad3972b36161b1c965/raw/blocklist-local-warden.ndjson"
     ],
     "baseline": {
       "file": "baseline/original.ndjson.gz",
