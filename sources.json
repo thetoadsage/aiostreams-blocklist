@@ -30,5 +30,7 @@
   "https://gist.githubusercontent.com/rubenblades/fdd47ca33358133b39ccb5ff5afd0321/raw/blocklist-local.ndjson",
   "https://gist.githubusercontent.com/yoshitaka420/3eb647eeb96d719eecfb5b52462233ea/raw/blocklist-local.ndjson",
   "https://gist.githubusercontent.com/thetoadsage/1597a892e6b19e19cdf8ceb34c56224f/raw/blocklist-local.ndjson",
-  "https://gist.githubusercontent.com/chrs-alt-esc/33016d6712d9046627997ad8e6e2c78a/raw/58c137f9f2c344f362893c246590e15ceccea51e/blocklist-local.ndjson"
+  "https://gist.githubusercontent.com/chrs-alt-esc/33016d6712d9046627997ad8e6e2c78a/raw/58c137f9f2c344f362893c246590e15ceccea51e/blocklist-local.ndjson",
+  "https://raw.githubusercontent.com/digi-banana/warden-dead-releases/main/warden/warden.ndjson.gz",
+  "https://raw.githubusercontent.com/tweakapps/davex-warden-backup/main/warden/warden.ndjson.gz"
 ]
