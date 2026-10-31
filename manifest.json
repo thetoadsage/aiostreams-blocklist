@@ -1,23 +1,59 @@
 {
   "format": "AIOStreams native NDJSON v1",
   "scope": "all",
-  "header_updated": 1793390060,
-  "entries": 184074,
+  "header_updated": 1793344160,
+  "entries": 161411,
   "key_types": {
-    "nh1": 5920,
-    "wd1": 178154
+    "nh1": 5919,
+    "wd1": 155492
   },
   "verdicts": {
-    "dead": 184074
+    "dead": 161411
   },
   "files": {
     "blocklist-all.ndjson": {
-      "bytes": 30134387,
-      "sha256": "5816235d98fd2e8735c5d08acc19932b2bf388e35a63032d52a322857c9b95f9"
+      "bytes": 25275048,
+      "sha256": "963bc83fc34547a564c385cb1cdda6781823de09f3251d885eb90b20016d76f4"
     },
     "blocklist-all.ndjson.gz": {
-      "bytes": 4863168,
-      "sha256": "d8b360441fcf83f3f80ca6283aeb042cf75872df7454b468ebe4eb9a7c05efd7"
+      "bytes": 4313635,
+      "sha256": "de00d59a009e7fe1346ce641eaedf69c60f7c1a91b97111e8a0dd94146b4daf8"
     }
+  },
+  "aggregation": {
+    "mode": "mirror",
+    "source_count": 30,
+    "sources": [
+      "https://raw.githubusercontent.com/Crypt1c1337/nzbdwarden/main/warden/warden.ndjson.gz",
+      "https://raw.githubusercontent.com/GodlyXFerrris/ndjson-snapshots/main/warden/warden.ndjson.gz",
+      "https://gist.githubusercontent.com/GumnaamYoozer/3bb07b88c2dbd3eb6043668acd93979a/raw/blocklist-local.ndjson",
+      "https://github.com/IbbyLabs/Warden/raw/refs/heads/main/warden.ndjson.gz",
+      "https://raw.githubusercontent.com/Jeor/watch_history/refs/heads/main/warden/warden.ndjson.gz",
+      "https://gist.githubusercontent.com/M7-SiN/36060be42e5c9fe314508209d460e97e/raw/blocklist-local.ndjson",
+      "https://raw.githubusercontent.com/Master-N7/warden/main/warden/warden.ndjson.gz",
+      "https://gist.githubusercontent.com/RandomNinjaAtk/7b296b9f5604bb24c6975020d41b4e27/raw/blocklist-local.ndjson",
+      "https://gist.githubusercontent.com/Shabbypenguin/b76ad743459fcd91280e9755bff9cecd/raw/blocklist-local.ndjson",
+      "https://github.com/Syn7ic/nzbdavex-warden-backup/raw/refs/heads/main/data/snapshot.ndjson.gz",
+      "https://gist.githubusercontent.com/TimFanMan/fec3777ae194ea3d31437d56a2a59826/raw/blocklist-local.ndjson",
+      "https://raw.githubusercontent.com/UltraDangerLord/nzbdavex-warden-backup/main/data/snapshot.ndjson.gz",
+      "https://raw.githubusercontent.com/anto7o/data-archive/main/data/snapshot.ndjson.gz",
+      "https://gist.githubusercontent.com/chrs-alt-esc/33016d6712d9046627997ad8e6e2c78a/raw/blocklist-local.ndjson",
+      "https://github.com/chrs-alt-esc/nzbdavex-warden-backup/raw/refs/heads/main/warden/warden.ndjson.gz",
+      "https://raw.githubusercontent.com/curiounomad/warden-intelligence/main/data/snapshot.ndjson.gz",
+      "https://gist.githubusercontent.com/d4s87/3bdd29ee19875f4686bff79486d43fa3/raw/blocklist-local.ndjson",
+      "https://raw.githubusercontent.com/ds2288/warden-backup/main/warden/warden.ndjson.gz",
+      "https://gist.githubusercontent.com/ekiplier/8d8593ff143e56c8bd8ac2da4ac505f0/raw/blocklist-local.ndjson",
+      "https://github.com/evanesce345/warden-fingerprints/raw/refs/heads/main/warden.ndjson.gz",
+      "https://gist.githubusercontent.com/fourpoint8/75d5091a8aeb450f7fd435b4ac310296/raw/blocklist-local.ndjson",
+      "https://gist.githubusercontent.com/ghub3297/0c0817db803504695b6e286fe26d1d13/raw/blocklist-local.ndjson",
+      "https://raw.githubusercontent.com/hjacob612-cell/warden-backup/main/warden/warden.ndjson.gz",
+      "https://raw.githubusercontent.com/iamkaisa/data-archive/main/data/snapshot.ndjson.gz",
+      "https://github.com/mrtxiv/ndjson-snapshots/raw/refs/heads/main/data/snapshot.ndjson.gz",
+      "https://gist.githubusercontent.com/rohilshah95/bb7f635dc65e3ba8bc4a30ab3109cd74/raw/blocklist-local.ndjson",
+      "https://github.com/rohilshah95/warden-backup/raw/refs/heads/main/warden/warden.ndjson.gz",
+      "https://gist.githubusercontent.com/rowB-blocklist/20c4a9c6cb8aab0fb27163df8ddd71ae/raw/blocklist-local.ndjson",
+      "https://gist.githubusercontent.com/rubenblades/fdd47ca33358133b39ccb5ff5afd0321/raw/blocklist-local.ndjson",
+      "https://gist.githubusercontent.com/yoshitaka420/3eb647eeb96d719eecfb5b52462233ea/raw/blocklist-local.ndjson"
+    ]
   }
 }

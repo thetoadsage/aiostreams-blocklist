@@ -1,0 +1,44 @@
+name: Update blocklist
+
+on:
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - sources.json
+      - scripts/**
+      - .github/workflows/update.yml
+      - tests/**
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-blocklist
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify aggregation rules
+        run: python3 -m unittest discover -s tests -v
+      - name: Fetch, validate and combine sources
+        run: python3 scripts/aggregate.py
+      - name: Commit changed blocklist
+        run: |
+          git add blocklist-all.ndjson blocklist-all.ndjson.gz manifest.json
+          if git diff --cached --quiet; then
+            echo "Blocklist unchanged"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update aggregated blocklist"
+          git push origin HEAD:main
