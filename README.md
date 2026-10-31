@@ -39,6 +39,8 @@ Publish your instance's own blocks to a GitHub Gist so they can be included here
 
 Keep your token private and replace it in AIOStreams before it expires. [GitHub token guide](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token).
 
+**Need a visual guide? Click either section below to expand helpful screenshots for each step.**
+
 <details>
 <summary>GitHub token setup screenshots</summary>
 
