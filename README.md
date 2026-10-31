@@ -22,11 +22,19 @@ A community blocklist with **190,000+ unique items**, updated automatically ever
 
 Publish your instance's own blocks to a GitHub Gist so they can be included here. You'll need access to your instance's Dashboard and some locally recorded blocks.
 
+### On GitHub — create your token
+
 1. [Create a fine-grained GitHub token](https://github.com/settings/personal-access-tokens/new). Name it `AIOStreams blocklist`, choose **your own personal account** as **Resource owner**, and set an expiration.
 2. Leave **Repository access → Public repositories** selected. Under **Permissions → Account**, click **Add permissions**, select **Gists**, and set its access to **Read and write**. Click **Generate token** and copy it. No repository write permissions are needed.
+
+### In your AIOStreams dashboard — publish your list
+
 3. In **Dashboard → Blocklists → Publishing**, click **Add target** and choose **GitHub Gist**.
 4. Enter a name, set the push interval to **6 hours**, and paste your token into **GitHub token**. Leave **Gist ID** blank so AIOStreams creates it. Under **Files to push**, choose **native** format and **local (own verdicts)** scope. Local shares your own blocks without republishing subscribed lists. **Create as public gist** is optional; secret Gists also work and are readable by anyone with their URL.
 5. Click **Add target**, then the target's **Push now** upload button. Wait for **Pushed 1/1 file**, then click the copy icon beside `blocklist-local.ndjson` in that target's row. Keep the target **Enabled** for automatic updates.
+
+### Back on GitHub — share your list URL
+
 6. [Open an issue](https://github.com/thetoadsage/aiostreams-blocklist/issues/new) with the copied list URL, or submit a pull request adding it to [sources.json](sources.json). Share the URL only, never your token.
 
 Keep your token private and replace it in AIOStreams before it expires. [GitHub token guide](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token).
