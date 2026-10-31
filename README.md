@@ -4,13 +4,19 @@ A community blocklist with **190,000+ unique items**, updated automatically ever
 
 ## Add to AIOStreams
 
-Go to **Dashboard → Blocklists → Sources → Subscribe to a list** and paste:
+1. Open the AIOStreams **Dashboard → Blocklists → Sources**, then click **Subscribe to a list**.
 
-```text
-https://raw.githubusercontent.com/thetoadsage/aiostreams-blocklist/main/blocklist-all.ndjson.gz
-```
+   ![Open Blocklists in the sidebar and click Subscribe to a list](docs/images/blocklists-sources.png)
 
-Choose **Full** trust and a **6-hour** refresh interval.
+2. Paste this address into **List URL(s)**:
+
+   ```text
+   https://raw.githubusercontent.com/thetoadsage/aiostreams-blocklist/main/blocklist-all.ndjson.gz
+   ```
+
+3. Set **Trust** to **full** and **Refresh (hours)** to **6**, then click **Subscribe**.
+
+   ![Subscription dialog with the list URL, full trust and a six-hour refresh interval](docs/images/subscribe-to-blocklist.png)
 
 ## Updates
 
