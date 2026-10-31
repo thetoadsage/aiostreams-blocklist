@@ -1,6 +1,6 @@
 # AIOStreams blocklist
 
-A combined blocklist that keeps all **184,074 original entries** and adds blocks from community sources. Duplicates are removed automatically.
+A community blocklist with **190,000+ unique items**, updated automatically every six hours.
 
 ## Add to AIOStreams
 
