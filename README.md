@@ -29,7 +29,24 @@ Publish your instance's own blocks to a GitHub Gist so they can be included here
 5. [Open an issue](https://github.com/thetoadsage/aiostreams-blocklist/issues/new) with that URL, or submit a pull request adding it to [sources.json](sources.json). Share the list URL only, never your token.
 
 <details>
-<summary>See the publishing screens</summary>
+<summary>GitHub token setup screenshots</summary>
+
+Name the token, select **your own personal account** as Resource owner, and choose an expiration:
+
+![GitHub fine-grained token form with the token name, personal resource owner and expiration](docs/images/github-token-owner.png)
+
+Leave Repository access on **Public repositories**. Under Account permissions, click **Add permissions** and select **Gists**:
+
+![GitHub token permissions with Add permissions and Gists highlighted](docs/images/github-token-add-gists.png)
+
+Set Gists access to **Read and write**, then click **Generate token**. Copy the token into AIOStreams; keep it private.
+
+![Gists Read and write permission and Generate token button highlighted](docs/images/github-token-gists-permission.png)
+
+</details>
+
+<details>
+<summary>AIOStreams publishing screenshots</summary>
 
 Open Publishing and click **Add target**:
 
@@ -38,6 +55,10 @@ Open Publishing and click **Add target**:
 Set up a GitHub Gist target with **native** format and **local (own verdicts)** scope:
 
 <img src="docs/images/add-publish-target.png" width="500" alt="Add publish target form with GitHub Gist, a six-hour interval, a blank token and Gist ID, native format and local scope">
+
+Click **Push now** (1). After a successful push, copy the list URL using the icon beside `blocklist-local.ndjson` (2):
+
+![Successful GitHub Gist target with Push now and the copy list URL icon highlighted](docs/images/push-and-copy-gist.png)
 
 </details>
 
