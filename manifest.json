@@ -12,17 +12,17 @@
   },
   "files": {
     "blocklist-all.ndjson": {
-      "bytes": 30156624,
-      "sha256": "0889d742f7d21d9c9eaeb2b7af94eff418d57e7c7b1d5e367771537d0674131f"
+      "bytes": 30156648,
+      "sha256": "8dba52fa9376d233ed9721ef58b82dd80277e5112189a0d0052dda2c71783a46"
     },
     "blocklist-all.ndjson.gz": {
-      "bytes": 5007845,
-      "sha256": "3e63de66abfb9d5dbe254d29a50db9de4ca8095381c26a8d3cefe3ce78c94dcc"
+      "bytes": 5008298,
+      "sha256": "713d422f17a79de64ac749539ec9e711689b1b9676e1885c2b48e89c401233bf"
     }
   },
   "aggregation": {
     "mode": "baseline-plus-mirror",
-    "source_count": 31,
+    "source_count": 32,
     "sources": [
       "https://raw.githubusercontent.com/Crypt1c1337/nzbdwarden/main/warden/warden.ndjson.gz",
       "https://raw.githubusercontent.com/GodlyXFerrris/ndjson-snapshots/main/warden/warden.ndjson.gz",
@@ -54,7 +54,8 @@
       "https://gist.githubusercontent.com/rowB-blocklist/20c4a9c6cb8aab0fb27163df8ddd71ae/raw/blocklist-local.ndjson",
       "https://gist.githubusercontent.com/rubenblades/fdd47ca33358133b39ccb5ff5afd0321/raw/blocklist-local.ndjson",
       "https://gist.githubusercontent.com/yoshitaka420/3eb647eeb96d719eecfb5b52462233ea/raw/blocklist-local.ndjson",
-      "https://gist.githubusercontent.com/thetoadsage/1597a892e6b19e19cdf8ceb34c56224f/raw/blocklist-local.ndjson"
+      "https://gist.githubusercontent.com/thetoadsage/1597a892e6b19e19cdf8ceb34c56224f/raw/blocklist-local.ndjson",
+      "https://gist.githubusercontent.com/chrs-alt-esc/33016d6712d9046627997ad8e6e2c78a/raw/58c137f9f2c344f362893c246590e15ceccea51e/blocklist-local.ndjson"
     ],
     "baseline": {
       "file": "baseline/original.ndjson.gz",
