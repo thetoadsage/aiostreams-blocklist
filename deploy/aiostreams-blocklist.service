@@ -1,0 +1,12 @@
+[Unit]
+Description=Refresh and publish the combined AIOStreams blocklist
+
+[Service]
+Type=oneshot
+ExecStart=/bin/bash /opt/docker/apps/aiostreams-blocklist/run-update.sh /opt/docker/apps/aiostreams-blocklist
+Environment="GIT_SSH_COMMAND=ssh -i %h/.ssh/aiostreams_blocklist_deploy -o IdentitiesOnly=yes -o BatchMode=yes -o StrictHostKeyChecking=yes -o ConnectTimeout=20"
+TimeoutStartSec=20min
+Restart=on-failure
+RestartSec=15min
+UMask=0077
+

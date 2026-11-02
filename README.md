@@ -1,6 +1,6 @@
 # AIOStreams blocklist
 
-A community blocklist with **190,000+ unique items**, scheduled to update automatically every six hours.
+A community blocklist with **190,000+ unique items**, updated automatically every six hours by a self-hosted server.
 
 ## Add to AIOStreams
 
@@ -77,11 +77,11 @@ Click **Push now** (1). When Status shows **Pushed 1/1 file**, copy the list URL
 
 ## Updates
 
-- Scheduled to check [community sources](sources.json) every six hours. [GitHub may delay or skip scheduled runs](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule).
+- Checks [community sources](sources.json) every six hours using a server timer. Source changes are picked up on the next run.
 - Always keeps the original entries. Later additions follow the current sources.
 - Keeps the last working list if an update fails.
 
-[Update status](https://github.com/thetoadsage/aiostreams-blocklist/actions/workflows/update.yml) · [Current entry count](manifest.json) · [Unavailable sources](disabled-sources.json)
+[Recent updates](https://github.com/thetoadsage/aiostreams-blocklist/commits/main/) · [Current entry count](manifest.json) · [Unavailable sources](disabled-sources.json)
 
 ## Backup
 
