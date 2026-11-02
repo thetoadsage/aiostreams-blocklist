@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate a native AIOStreams export and refresh the published snapshot."""
+"""Merge a native AIOStreams export with the permanent original baseline."""
 import argparse
 import collections
 import gzip
@@ -7,6 +7,7 @@ import hashlib
 import json
 from pathlib import Path
 import re
+import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
 KEY = re.compile(r"(?:wd1:[0-9a-f]{32}|nh1:[0-9a-f]{40}|btih:(?:[0-9a-f]{40}|[0-9a-f]{64}))")
@@ -19,6 +20,8 @@ def prepare(source):
         raise ValueError('Expected a native AIOStreams blocklist:1 header')
     if set(rows[0]) != {'blocklist', 'updated'}:
         raise ValueError('Unexpected header fields; review before publishing')
+    if type(rows[0]['updated']) is not int or rows[0]['updated'] < 0:
+        raise ValueError('Invalid header timestamp')
     seen = set()
     kinds, verdicts = collections.Counter(), collections.Counter()
     for number, row in enumerate(rows[1:], 2):
@@ -65,7 +68,21 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('export', type=Path, help='Fresh native NDJSON export (scope All)')
     args = parser.parse_args()
-    files, manifest = prepare(args.export)
+    # Keep prepare() a format validator for the scheduled aggregation path.
+    # The manual publishing path must also preserve the original baseline.
+    import aggregate
+    baseline = aggregate.load_baseline(ROOT)
+    validated, _ = prepare(args.export)
+    records = aggregate.with_baseline(baseline, aggregate.parse(validated['blocklist-all.ndjson']))
+    with tempfile.TemporaryDirectory() as directory:
+        export = Path(directory) / 'merged.ndjson'
+        export.write_bytes(aggregate.serialize(records))
+        files, manifest = prepare(export)
+    manifest['aggregation'] = {
+        'mode': 'baseline-plus-export',
+        'baseline': {'file': aggregate.BASELINE_FILE, 'entries': len(baseline),
+                     'sha256': aggregate.BASELINE_SHA256},
+    }
     # All validation finishes before replacing any published files.
     for name, body in files.items():
         (ROOT / name).write_bytes(body)

@@ -1,0 +1,8 @@
+[Unit]
+Description=Check AIOStreams blocklist update health
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/env python3 /opt/docker/apps/aiostreams-blocklist/health.py /opt/docker/apps/aiostreams-blocklist check
+TimeoutStartSec=30s
+UMask=0077

@@ -12,17 +12,17 @@
   },
   "files": {
     "blocklist-all.ndjson": {
-      "bytes": 31388172,
-      "sha256": "cb87e99ed960dd5d529625f1ab90b7f7744317ab22202ddbc339e0ad8c6f5dfa"
+      "bytes": 31388148,
+      "sha256": "e33c8646b378ada8a07f076b708cc026e405bc440ace51506e8f2f87ec3e76cd"
     },
     "blocklist-all.ndjson.gz": {
-      "bytes": 5206814,
-      "sha256": "7f481fe578ae5ed1c8f19b3ba95ce45333143a2d0c8cc2a1e241752959903e9d"
+      "bytes": 5206356,
+      "sha256": "0c42137a9ff2c43c3ba0d45454a86e4909df5d1d92df2b739c72c4e87d240e34"
     }
   },
   "aggregation": {
     "mode": "baseline-plus-mirror",
-    "source_count": 37,
+    "source_count": 36,
     "sources": [
       "https://raw.githubusercontent.com/Crypt1c1337/nzbdwarden/main/warden/warden.ndjson.gz",
       "https://raw.githubusercontent.com/GodlyXFerrris/ndjson-snapshots/main/warden/warden.ndjson.gz",
@@ -55,7 +55,6 @@
       "https://gist.githubusercontent.com/rubenblades/fdd47ca33358133b39ccb5ff5afd0321/raw/blocklist-local.ndjson",
       "https://gist.githubusercontent.com/yoshitaka420/3eb647eeb96d719eecfb5b52462233ea/raw/blocklist-local.ndjson",
       "https://gist.githubusercontent.com/thetoadsage/1597a892e6b19e19cdf8ceb34c56224f/raw/blocklist-local.ndjson",
-      "https://gist.githubusercontent.com/chrs-alt-esc/33016d6712d9046627997ad8e6e2c78a/raw/58c137f9f2c344f362893c246590e15ceccea51e/blocklist-local.ndjson",
       "https://raw.githubusercontent.com/digi-banana/warden-dead-releases/main/warden/warden.ndjson.gz",
       "https://raw.githubusercontent.com/tweakapps/davex-warden-backup/main/warden/warden.ndjson.gz",
       "https://gist.githubusercontent.com/Boxfiller/65b5aefee97756f59a4f583fd111c94e/raw/blocklist-local.ndjson",

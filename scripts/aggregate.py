@@ -10,6 +10,7 @@ from pathlib import Path
 import tempfile
 import time
 import urllib.request
+from urllib.parse import urlsplit
 
 import update
 
@@ -22,11 +23,30 @@ BASELINE_FILE = 'baseline/original.ndjson.gz'
 BASELINE_SHA256 = '5816235d98fd2e8735c5d08acc19932b2bf388e35a63032d52a322857c9b95f9'
 
 
-def load_baseline():
-    data = gzip.decompress((ROOT / BASELINE_FILE).read_bytes())
+def load_baseline(root=None):
+    data = gzip.decompress(((ROOT if root is None else root) / BASELINE_FILE).read_bytes())
     if hashlib.sha256(data).hexdigest() != BASELINE_SHA256:
         raise ValueError('Original baseline checksum mismatch; published files unchanged')
     return parse(data)
+
+
+def validate_sources(urls):
+    if not isinstance(urls, list) or not urls or any(not isinstance(url, str) for url in urls):
+        raise ValueError('Expected a nonempty list of source URLs')
+    identities = set()
+    for url in urls:
+        parsed = urlsplit(url)
+        if parsed.scheme != 'https' or not parsed.hostname or parsed.username or parsed.password:
+            raise ValueError('Source URLs must use HTTPS without credentials')
+        identity = url
+        # A pinned revision and the live URL still represent one contributor's
+        # same file, not independent observations. Reject both before fetching.
+        parts = parsed.path.strip('/').split('/')
+        if parsed.hostname.lower() == 'gist.githubusercontent.com' and len(parts) in (4, 5) and parts[2] == 'raw':
+            identity = ('gist', parts[1].lower(), parts[-1])
+        if identity in identities:
+            raise ValueError('Duplicate source URL or Gist file')
+        identities.add(identity)
 
 
 def integer(value, fallback, low, high):
@@ -135,10 +155,7 @@ def with_baseline(baseline, current):
 def main():
     baseline = load_baseline()
     urls = json.loads((ROOT / 'sources.json').read_text())
-    if not isinstance(urls, list) or not urls or any(not isinstance(url, str) for url in urls):
-        raise ValueError('Expected a nonempty list of source URLs')
-    if len(urls) != len(set(urls)):
-        raise ValueError('Duplicate source URL')
+    validate_sources(urls)
     groups = []
     errors = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:

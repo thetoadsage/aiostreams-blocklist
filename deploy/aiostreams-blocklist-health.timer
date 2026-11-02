@@ -1,0 +1,11 @@
+[Unit]
+Description=Check AIOStreams blocklist update health every fifteen minutes
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=15min
+AccuracySec=1s
+Unit=aiostreams-blocklist-health.service
+
+[Install]
+WantedBy=timers.target

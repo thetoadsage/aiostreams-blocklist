@@ -8,6 +8,7 @@ from unittest import mock
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 import aggregate
+import update
 
 KEY = 'wd1:' + 'a' * 32
 
@@ -17,6 +18,29 @@ def row(verdict='dead', hosts=None, n=1, at=100):
 
 
 class AggregationTests(unittest.TestCase):
+    def test_rejects_duplicate_live_and_pinned_gist_before_fetch(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            urls = ['https://gist.githubusercontent.com/owner/123/raw/blocks.ndjson',
+                    'https://gist.githubusercontent.com/owner/123/raw/abc/blocks.ndjson']
+            (root / 'sources.json').write_text(json.dumps(urls))
+            with mock.patch.object(aggregate, 'ROOT', root), mock.patch.object(aggregate, 'load_baseline', return_value=[row()]), mock.patch.object(aggregate, 'fetch') as fetch:
+                with self.assertRaisesRegex(ValueError, 'Duplicate source'):
+                    aggregate.main()
+                fetch.assert_not_called()
+
+    def test_distinct_gist_files_and_contributors_remain_valid(self):
+        aggregate.validate_sources(['https://gist.githubusercontent.com/owner/123/raw/a.ndjson',
+                                    'https://gist.githubusercontent.com/owner/123/raw/b.ndjson',
+                                    'https://gist.githubusercontent.com/other/456/raw/a.ndjson'])
+        aggregate.validate_sources(json.loads((aggregate.ROOT / 'sources.json').read_text()))
+
+    def test_invalid_source_configuration_fails_early(self):
+        for urls in [[], {}, [1], ['http://example.com/a'], ['https://user:secret@example.com/a'],
+                     ['https://example.com/a', 'https://example.com/a']]:
+            with self.subTest(urls=urls), self.assertRaises(ValueError):
+                aggregate.validate_sources(urls)
+
     def test_native_and_compressed_warden_are_equivalent(self):
         native = b'{"blocklist":1}\n' + json.dumps(row(hosts=['news.example.com'])).encode()
         warden = b'{"warden":1}\n' + json.dumps({
@@ -96,6 +120,43 @@ class AggregationTests(unittest.TestCase):
             manifest = json.loads((root / 'manifest.json').read_text())
             self.assertEqual(manifest['entries'], 2)
             self.assertEqual(manifest['aggregation']['mode'], 'baseline-plus-mirror')
+
+
+class ManualUpdateTests(unittest.TestCase):
+    def test_partial_export_keeps_baseline_scope_severity_and_counts(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            export = root / 'partial.ndjson'
+            extra = {**row(), 'k': 'nh1:' + 'b' * 40}
+            export.write_bytes(aggregate.serialize([row('defective', ['new.example'], n=2), extra]))
+            baseline = [row('dead', ['original.example'], n=4),
+                        {**row(), 'k': 'wd1:' + 'c' * 32}]
+            with mock.patch.object(update, 'ROOT', root), mock.patch.object(aggregate, 'load_baseline', return_value=baseline), mock.patch.object(sys, 'argv', ['update.py', str(export)]):
+                update.main()
+            result = {r['k']: r for r in aggregate.parse((root / 'blocklist-all.ndjson').read_bytes())}
+            self.assertEqual(len(result), 3)
+            self.assertEqual(result[KEY], row('dead', ['new.example', 'original.example'], n=4))
+            self.assertEqual(gzip.decompress((root / 'blocklist-all.ndjson.gz').read_bytes()), (root / 'blocklist-all.ndjson').read_bytes())
+            self.assertEqual(json.loads((root / 'manifest.json').read_text())['aggregation']['mode'], 'baseline-plus-export')
+
+    def test_missing_or_corrupt_baseline_preserves_published_files(self):
+        for corrupt in (False, True):
+            with self.subTest(corrupt=corrupt), tempfile.TemporaryDirectory() as directory:
+                root = Path(directory)
+                export = root / 'partial.ndjson'
+                export.write_bytes(aggregate.serialize([row()]))
+                if corrupt:
+                    path = root / aggregate.BASELINE_FILE
+                    path.parent.mkdir()
+                    path.write_bytes(gzip.compress(b'changed'))
+                names = ['blocklist-all.ndjson', 'blocklist-all.ndjson.gz', 'manifest.json']
+                for name in names:
+                    (root / name).write_bytes(b'original')
+                with mock.patch.object(update, 'ROOT', root), mock.patch.object(sys, 'argv', ['update.py', str(export)]):
+                    with self.assertRaises((OSError, ValueError)):
+                        update.main()
+                for name in names:
+                    self.assertEqual((root / name).read_bytes(), b'original')
 
 
 if __name__ == '__main__':
