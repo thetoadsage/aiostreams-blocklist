@@ -34,5 +34,6 @@
   "https://raw.githubusercontent.com/tweakapps/davex-warden-backup/main/warden/warden.ndjson.gz",
   "https://gist.githubusercontent.com/Boxfiller/65b5aefee97756f59a4f583fd111c94e/raw/blocklist-local.ndjson",
   "https://gist.githubusercontent.com/anysmoke/a106a4b298bf737226788ff1c322f801/raw/blocklist-local-warden.ndjson",
-  "https://gist.githubusercontent.com/ashipaek0/13904161365160ad3972b36161b1c965/raw/blocklist-local-warden.ndjson"
+  "https://gist.githubusercontent.com/ashipaek0/13904161365160ad3972b36161b1c965/raw/blocklist-local-warden.ndjson",
+  "https://check.snzb.stream/api/v1/warden/local.ndjson.gz"
 ]
