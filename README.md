@@ -37,6 +37,10 @@ Publish your instance's own blocks to a GitHub Gist so they can be included here
 
 6. [Open an issue](https://github.com/thetoadsage/aiostreams-blocklist/issues/new) with the copied list URL, or submit a pull request adding it to [sources.json](sources.json). Share the URL only, never your token.
 
+### Or share your Gist on Discord
+
+You can also post your Gist link in the **blocklist thread** on the **AIOStreams Discord**. It will be added to the sources. Share only your Gist link, never your token.
+
 Keep your token private and replace it in AIOStreams before it expires. [GitHub token guide](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token).
 
 **Need a visual guide? Click either section below to expand helpful screenshots for each step.**
