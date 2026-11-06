@@ -6,9 +6,5 @@
   {
     "url": "https://raw.githubusercontent.com/0-nj/davex-backup/refs/heads/main/data/snapshot.ndjson.gz",
     "reason": "HTTP 404 during initial setup on 2026-10-31; excluded until a working public URL is available"
-  },
-  {
-    "url": "https://github.com/Febsho/FebshoWarden/raw/refs/heads/main/data/warden.ndjson.gz",
-    "reason": "HTTP 404 during initial setup on 2026-10-31; excluded until a working public URL is available"
   }
 ]
