@@ -112,13 +112,18 @@ class AggregationTests(unittest.TestCase):
             root = Path(directory)
             (root / 'sources.json').write_text('["https://example.com/a"]')
             rows = [row(), {**row(), 'k': 'nh1:' + 'b' * 40}]
+            manual = {**row(), 'k': 'wd1:' + 'c' * 32, 'bk': ['eweka.nl']}
+            snapshot = root / aggregate.SCREENER_SNAPSHOT
+            snapshot.parent.mkdir()
+            snapshot.write_bytes(aggregate.serialize([manual]))
             with mock.patch.object(aggregate, 'ROOT', root), mock.patch.object(aggregate, 'fetch', return_value=rows), mock.patch.object(aggregate, 'load_baseline', return_value=[row()]):
                 aggregate.main()
             plain = (root / 'blocklist-all.ndjson').read_bytes()
             self.assertEqual(gzip.decompress((root / 'blocklist-all.ndjson.gz').read_bytes()), plain)
-            self.assertEqual(len(aggregate.parse(plain)), 2)
+            self.assertEqual(len(aggregate.parse(plain)), 3)
+            self.assertIn(manual, aggregate.parse(plain))
             manifest = json.loads((root / 'manifest.json').read_text())
-            self.assertEqual(manifest['entries'], 2)
+            self.assertEqual(manifest['entries'], 3)
             self.assertEqual(manifest['aggregation']['mode'], 'baseline-plus-mirror')
 
 

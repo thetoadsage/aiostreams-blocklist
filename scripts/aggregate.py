@@ -21,6 +21,7 @@ MAX_DECOMPRESSED = 256 * 1024 * 1024
 CAP = 1_000_000_000
 BASELINE_FILE = 'baseline/original.ndjson.gz'
 BASELINE_SHA256 = '5816235d98fd2e8735c5d08acc19932b2bf388e35a63032d52a322857c9b95f9'
+SCREENER_SNAPSHOT = 'baseline/ibbylabs-screener.ndjson'
 
 
 def load_baseline(root=None):
@@ -167,7 +168,8 @@ def main():
                 errors.append(f'{url}: {error}')
     if errors:
         raise RuntimeError('Published files unchanged; failed sources:\n' + '\n'.join(errors))
-    records = with_baseline(baseline, merge(groups))
+    snapshot = parse((ROOT / SCREENER_SNAPSHOT).read_bytes())
+    records = with_baseline(with_baseline(baseline, merge(groups)), snapshot)
     with tempfile.TemporaryDirectory() as directory:
         export = Path(directory) / 'aggregate.ndjson'
         export.write_bytes(serialize(records))
@@ -175,6 +177,7 @@ def main():
     manifest['aggregation'] = {
         'mode': 'baseline-plus-mirror', 'source_count': len(urls), 'sources': urls,
         'baseline': {'file': BASELINE_FILE, 'entries': len(baseline), 'sha256': BASELINE_SHA256},
+        'manual_snapshot': {'file': SCREENER_SNAPSHOT, 'entries': len(snapshot)},
     }
     # No published files are touched until every source and the result validate.
     for name, body in files.items():
