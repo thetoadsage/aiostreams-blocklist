@@ -1,6 +1,6 @@
 # AIOStreams blocklist
 
-A community blocklist with **190,000+ unique items**, updated automatically every six hours by a self-hosted server.
+A community blocklist with **195,000+ unique blocks**, updated automatically every six hours by a self-hosted server.
 
 ## Add to AIOStreams
 
