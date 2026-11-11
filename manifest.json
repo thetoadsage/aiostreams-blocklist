@@ -1,28 +1,28 @@
 {
   "format": "AIOStreams native NDJSON v1",
   "scope": "all",
-  "header_updated": 1794350320,
-  "entries": 195039,
+  "header_updated": 1794356826,
+  "entries": 195111,
   "key_types": {
-    "nh1": 6389,
-    "wd1": 188650
+    "nh1": 6426,
+    "wd1": 188685
   },
   "verdicts": {
-    "dead": 195039
+    "dead": 195111
   },
   "files": {
     "blocklist-all.ndjson": {
-      "bytes": 31666184,
-      "sha256": "12b6de351146634cc079676fedefbb5c5281d3b9c24c69ea8df54ab32f9d838c"
+      "bytes": 31676016,
+      "sha256": "63770a2fe78eccdc0ba06d184588a6265ea8e8d5f287bbf938b58ed0857adaa7"
     },
     "blocklist-all.ndjson.gz": {
-      "bytes": 5285668,
-      "sha256": "a46a4d52e6f7d9ad2306afb6069fbd01a01cfe2737788d4c4e813fbed87998b4"
+      "bytes": 5288525,
+      "sha256": "01a0bb00258ff0efae21b474f7b08f01b8cb3574a4724b44816f2ed97b1927fd"
     }
   },
   "aggregation": {
     "mode": "baseline-plus-mirror",
-    "source_count": 39,
+    "source_count": 40,
     "sources": [
       "https://raw.githubusercontent.com/Crypt1c1337/nzbdwarden/main/warden/warden.ndjson.gz",
       "https://raw.githubusercontent.com/GodlyXFerrris/ndjson-snapshots/main/warden/warden.ndjson.gz",
@@ -62,7 +62,8 @@
       "https://gist.githubusercontent.com/ashipaek0/13904161365160ad3972b36161b1c965/raw/blocklist-local-warden.ndjson",
       "https://check.snzb.stream/api/v1/warden/local.ndjson.gz",
       "https://gist.githubusercontent.com/GodlyXFerrris/c1f35426bc1a401c7c009ec47cacbd7d/raw/blocklist-local.ndjson",
-      "https://github.com/Febsho/FebshoWarden/raw/refs/heads/main/data/warden.ndjson.gz"
+      "https://github.com/Febsho/FebshoWarden/raw/refs/heads/main/data/warden.ndjson.gz",
+      "https://gist.githubusercontent.com/GaryDav3/b0ae734b77ced65874434f0b2f73e34a/raw/blocklist-local.ndjson"
     ],
     "baseline": {
       "file": "baseline/original.ndjson.gz",
