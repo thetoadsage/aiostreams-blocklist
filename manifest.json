@@ -1,23 +1,23 @@
 {
   "format": "AIOStreams native NDJSON v1",
   "scope": "all",
-  "header_updated": 1794885417,
-  "entries": 196106,
+  "header_updated": 1794916389,
+  "entries": 196115,
   "key_types": {
-    "nh1": 6782,
-    "wd1": 189324
+    "nh1": 6785,
+    "wd1": 189330
   },
   "verdicts": {
-    "dead": 196106
+    "dead": 196115
   },
   "files": {
     "blocklist-all.ndjson": {
-      "bytes": 31812276,
-      "sha256": "26f4dd3665756bb06a2d25fcf4942113e6834192e1ed31cd9ede1021da3a6e07"
+      "bytes": 31813825,
+      "sha256": "abe02c4e47799ce3c268146463053c15da6bb414b137c116e62dfe4ca36cbfdf"
     },
     "blocklist-all.ndjson.gz": {
-      "bytes": 5323639,
-      "sha256": "400cf6ac87cd742ed31248a206c1ac2bc3bb5c710506e78616d0b6c13ed2794a"
+      "bytes": 5324002,
+      "sha256": "34c3d4e6698370be5a8f6d1dc89f27bf7a68814a66bf0ec2183aec3bd49da785"
     }
   },
   "aggregation": {
