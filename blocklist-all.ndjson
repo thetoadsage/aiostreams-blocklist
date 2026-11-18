@@ -1,4 +1,4 @@
-{"blocklist":1,"updated":1794934874}
+{"blocklist":1,"updated":1794956298}
 {"k":"nh1:000024101d3f4189a85433500f3e5497db373e37","v":"dead","n":1,"at":1791075443,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:00153882c7b3ee1f51bc047883026d993ceaf4b6","v":"dead","n":7,"at":1790877467,"bk":["news-eu.newshosting.com","news.easynews.com","newshosting.tweaknews.eu","nntp.torbox.app"]}
 {"k":"nh1:0015c70e8228df46e219b30954009bede87a4096","v":"dead","n":1,"at":1790799954,"bk":["news.easynews.com","news.newsgroup.ninja"]}
@@ -97,6 +97,7 @@
 {"k":"nh1:03deeb0c46366ad768085546ef8272e2f4e7cb22","v":"dead","n":1,"at":1790788775,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:03eb9dbc1efc619192c7c43cc1d0901f16681bf2","v":"dead","n":1,"at":1794729732,"bk":["news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu"]}
 {"k":"nh1:03fbcd84957a6803f71ebadd6a4bd7f53c300353","v":"dead","n":1,"at":1790118217,"bk":["news.newsdemon.com","news.newshosting.com"]}
+{"k":"nh1:0400ee3b468b25cc249eb744c25c061baf3df286","v":"dead","n":1,"at":1794952757,"bk":["news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu"]}
 {"k":"nh1:040b2330a28e44a870ebe7d293a670c293bec5d2","v":"dead","n":1,"at":1789148041,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:043377d4681cde746c9bddafd3e9b09d6b4d7dd2","v":"dead","n":1,"at":1791127460,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:043da605561c005b58874edc8585109e541a4276","v":"dead","n":1,"at":1794052057,"bk":["206.53.2.239","eunews.blocknews.net","news-eu.newshosting.com","newshosting.tweaknews.eu","nntp.torbox.app","secure-eu.news.easynews.com"]}
@@ -525,6 +526,7 @@
 {"k":"nh1:1516697dac0b43a71a232a0cd3cbc178ba24c071","v":"dead","n":10,"at":1784068904,"bk":["news.easynews.com"]}
 {"k":"nh1:151d1a07f82647dc0fe86838863ca25e57ede812","v":"dead","n":1,"at":1790262227,"bk":["news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu"]}
 {"k":"nh1:1527e4e88c88b8348eb369830be4330a61249ed9","v":"dead","n":1,"at":1785702870,"bk":["news.newshosting.com","nntp.torbox.app"]}
+{"k":"nh1:152b0e1c652772737d08b4579bdcdc9721ff8ee1","v":"dead","n":19,"at":1794952481,"bk":["news.newshosting.com","newshosting.tweaknews.eu","nntp.torbox.app","secure-eu.news.easynews.com"]}
 {"k":"nh1:152b795a856c7b0d60c2b11f211b8726f405af5c","v":"dead","n":1,"at":1790730638,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:153baaea453d831c0b3075f75b228c924b011201","v":"dead","n":6,"at":1785197944,"bk":["news.easynews.com","news.newshosting.com","newshosting.tweaknews.eu"]}
 {"k":"nh1:1550ed973eb91ff14830cb8a6c63f81ccd1c6ffb","v":"dead","n":1,"at":1791545910,"bk":["news.easynews.com","news.newsgroup.ninja"]}
@@ -998,6 +1000,7 @@
 {"k":"nh1:25b213b19e1e98b099f36c2602636ac56ec10d5e","v":"dead","n":1,"at":1791339841,"bk":["news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"nh1:25cc9482ff68acb554d84482d9a52a8b91147438","v":"dead","n":1,"at":1790816141,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:25d06b1f9487d3a56ceb5ee7d72af91cafdb7228","v":"dead","n":2,"at":1791118647,"bk":["news.easynews.com","news.newsgroup.ninja"]}
+{"k":"nh1:25db5f2cd1805ce31001feeeccb61e4b2fa2f491","v":"dead","n":15,"at":1794951208,"bk":["news.newshosting.com","newshosting.tweaknews.eu","nntp.torbox.app","secure-eu.news.easynews.com"]}
 {"k":"nh1:25ee03ce45a916966fb8d6a191a1bad126a060ce","v":"dead","n":1,"at":1790811977,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:25f46d13c554c8a07c5330e8df902d986b536f35","v":"dead","n":1,"at":1791125653,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:2610713ab47f5f853e2b2f1d94a30b1224fd3dc4","v":"dead","n":2,"at":1791941733,"bk":["news.easynews.com","news.newshosting.com","newshosting.tweaknews.eu"]}
@@ -1403,6 +1406,7 @@
 {"k":"nh1:34e0f9bdc6d18508b4db779f8c1d38e1d40fcd7f","v":"dead","n":1,"at":1791125174,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:34e8e7e7c892543a8c9b0726dd0d402e97f82bfe","v":"dead","n":7,"at":1791231486,"bk":["news.newshosting.com","newshosting.tweaknews.eu","nntp.torbox.app"]}
 {"k":"nh1:34e971d088a11eb8e821825255113af3f6724f58","v":"dead","n":3,"at":1785231210}
+{"k":"nh1:34f15837cb01549ebabde2204ac24c1e25eafe34","v":"dead","n":9,"at":1794943819,"bk":["news.newshosting.com","newshosting.tweaknews.eu","nntp.torbox.app","secure-eu.news.easynews.com"]}
 {"k":"nh1:34f5dc51df8821860e5236723bc6d0405d5f8f7d","v":"dead","n":2,"at":1786574517,"bk":["news.newshosting.com","nntp.torbox.app"]}
 {"k":"nh1:34fc1bd74be2b40c529839561386d0558690fc28","v":"dead","n":1,"at":1790813458,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:34fd9cb3c7a524d3ea09159061c6dcc2403a3285","v":"dead","n":2,"at":1790795928,"bk":["news-eu.newshosting.com","news.easynews.com","news.newsgroup.ninja","newshosting.tweaknews.eu","nntp.torbox.app"]}
@@ -2236,6 +2240,7 @@
 {"k":"nh1:532aa636bf53766aa22324e844d09787abf76418","v":"dead","n":1,"at":1791545991,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:5347eab35581d1a89cb52a22515b90e413e27cbc","v":"dead","n":1,"at":1791076300,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:5359cca247e70248ac04068c9c4b0ad73913af23","v":"dead","n":1,"at":1786907328,"bk":["news.easynews.com","news.newsgroup.ninja"]}
+{"k":"nh1:535cb3c92f4e8ccc086d4d8100bde135234094c3","v":"dead","n":5,"at":1794943819,"bk":["news.newshosting.com","newshosting.tweaknews.eu","nntp.torbox.app","secure-eu.news.easynews.com"]}
 {"k":"nh1:535f3abdfd7f8f8879b0d0d62f0a7a52171cbfb4","v":"dead","n":1,"at":1791123983,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:5367ac7f4b14d0d0bf0e51ea72a50499c8258480","v":"dead","n":1,"at":1790816672,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:5369ad2eb232e502c779b3ff7ceea3caa6aac703","v":"dead","n":1,"at":1791125981,"bk":["news.easynews.com","news.newsgroup.ninja"]}
@@ -3460,6 +3465,7 @@
 {"k":"nh1:8374cce91d3b9899f914f0d6a12ca4cd94694f4e","v":"dead","n":1,"at":1791079173,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:83750922f0567128f7c43490717c60a8d7630030","v":"dead","n":1,"at":1791126210,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:838796963f3676b4e32420eec77aeeb170f5b0cd","v":"dead","n":1,"at":1789141292,"bk":["news.easynews.com","news.newsgroup.ninja"]}
+{"k":"nh1:8389be634edf9bd08cb520f1627b598695debaca","v":"dead","n":2,"at":1794944116,"bk":["news.newshosting.com","newshosting.tweaknews.eu","nntp.torbox.app","secure-eu.news.easynews.com"]}
 {"k":"nh1:83921c2f7761faf89a703c554d9dcfc625c4e0f4","v":"dead","n":1,"at":1794864398,"bk":["news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu"]}
 {"k":"nh1:839410c6564bd9ca568ae21d8fec3a8e61f25fe4","v":"dead","n":1,"at":1791118785,"bk":["news.newshosting.com","newshosting.tweaknews.eu","nntp.torbox.app"]}
 {"k":"nh1:8399288f775a1353eafb94c77eb2e69959f82f58","v":"dead","n":5,"at":1793959117,"bk":["news-eu.newshosting.com","news.eweka.nl"]}
@@ -4001,6 +4007,7 @@
 {"k":"nh1:9834ee01b7933d24f05140876a11ad9ed5b21319","v":"dead","n":1,"at":1791116348,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:98351d75a6b903a56821f1af9bdb163ff98a1be6","v":"dead","n":1,"at":1791317915,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:983d40d78e48153a84d1da37d5e2e807ba7a4096","v":"dead","n":1,"at":1788376245,"bk":["eu-tst.newsgroupdirect.com","news.eweka.nl","news.newshosting.com","news.usenet.farm","newshosting.tweaknews.eu","secure-eu.news.easynews.com"]}
+{"k":"nh1:984b5a9ddd6c898607c0cf971d2f8b574eb5e1e9","v":"dead","n":1,"at":1794944120,"bk":["news.newshosting.com","newshosting.tweaknews.eu","nntp.torbox.app","secure-eu.news.easynews.com"]}
 {"k":"nh1:9856b020c0da28f254abd2904bd9f8a374eab2ab","v":"dead","n":1,"at":1790802590,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:9871a02799026deb85611cf287df898d76d85a6e","v":"dead","n":1,"at":1791318953,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:9881e0bd6dcac3885e7da1c923de141314e8d8e1","v":"dead","n":6,"at":1785707759,"bk":["news-eu.newshosting.com","news.easynews.com","newshosting.tweaknews.eu","nntp.torbox.app"]}
@@ -5087,6 +5094,7 @@
 {"k":"nh1:be9151b41fb6347451421fd06d3138d72b0882ff","v":"dead","n":1,"at":1786931191,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:be917ada1dcf9404cc49865714246e7a88bc9663","v":"dead","n":1,"at":1793275001,"bk":["206.53.2.239","news-eu.newshosting.com","newshosting.tweaknews.eu","nntp.torbox.app","secure-eu.news.easynews.com"]}
 {"k":"nh1:be9e4f9d739df97c2b5c016077ecac0b75f0acbd","v":"dead","n":1,"at":1784749354,"bk":["news.bulknews.eu","news.easynews.com","news.newsdemon.com","nntp.torbox.app","usnews.blocknews.net"]}
+{"k":"nh1:beaab2ffbc65d09daeeb742e4327a4627dec7a99","v":"dead","n":15,"at":1794951208,"bk":["news.newshosting.com","newshosting.tweaknews.eu","nntp.torbox.app","secure-eu.news.easynews.com"]}
 {"k":"nh1:beb4705cff1f886713fe3c4f314cf4f1f2af62b7","v":"dead","n":2,"at":1793260428,"bk":["news-eu.newshosting.com","news.easynews.com","news.eweka.nl","news.newsdemon.com","news.newshosting.com","news.thundernews.com","news.usenet.farm","newshosting.tweaknews.eu"]}
 {"k":"nh1:becfb9534e1e1f8121811f4835e12f3932305b12","v":"dead","n":1,"at":1791119793,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:bed4d4a17518d45f2ec434512975537952551094","v":"dead","n":1,"at":1790805150,"bk":["news.easynews.com","news.newsgroup.ninja"]}
@@ -5860,6 +5868,7 @@
 {"k":"nh1:db7e01f52fd3ce2c6ceef894619d7b0088ac2fcf","v":"dead","n":1,"at":1791262831,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:db9e6265af10a0f93aa990e568c6d7d687beb5c3","v":"dead","n":1,"at":1790798537,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:dba66e6449b742e0adecf75f9d7fe595f0cc4852","v":"dead","n":1,"at":1791125426,"bk":["news.easynews.com","news.newsgroup.ninja"]}
+{"k":"nh1:dbad8fd0858c1383170f748c8c3e5c01a11343cf","v":"dead","n":3,"at":1794949925,"bk":["eu-tst.newsgroupdirect.com","news.eweka.nl","news.newshosting.com","news.usenet.farm","newshosting.tweaknews.eu","secure-eu.news.easynews.com"]}
 {"k":"nh1:dbb68d3babb1efabd027e328b7607fe7879d1b20","v":"dead","n":1,"at":1790816038,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:dbc31dd37cbe174f2571e5060128fd4c88a7484a","v":"dead","n":1,"at":1790800076,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:dbd46947815bf487ade270ec8d7eaed4abbbdc3e","v":"dead","n":1,"at":1791319554,"bk":["news.easynews.com","news.newsgroup.ninja"]}
@@ -5976,6 +5985,7 @@
 {"k":"nh1:e05237885d9452d8d5233a132c52f776e9b13830","v":"dead","n":2,"at":1791378494,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:e058245c5befc04792e84a07c307a3e00ed38ae5","v":"dead","n":1,"at":1791260754,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:e0597ad1e2fc88cfcf2c67c377c40b8f0c375ce6","v":"dead","n":1,"at":1791120424}
+{"k":"nh1:e062a78c03e1d5ab9cbfce642d17a73a9e9b2d04","v":"dead","n":4,"at":1794949593,"bk":["eu-tst.newsgroupdirect.com","news.eweka.nl","news.newshosting.com","news.usenet.farm","newshosting.tweaknews.eu","secure-eu.news.easynews.com"]}
 {"k":"nh1:e0641d5899175408ab84a81ce88b9123db0559af","v":"dead","n":1,"at":1791076407,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:e067cf0b95552cb48fe4c52eca74e690e4ab9bf7","v":"dead","n":1,"at":1791546170,"bk":["news.easynews.com","news.newsgroup.ninja"]}
 {"k":"nh1:e0688a67f3aa34db0983383dacb063728d6d2487","v":"dead","n":1,"at":1791122006,"bk":["news.easynews.com","news.newsgroup.ninja"]}
@@ -12283,6 +12293,7 @@
 {"k":"wd1:074abab7aec26390ba3f01bf96a96b5d","v":"dead","n":7881194,"at":1781771026,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:074b2481b0dd448697bbff1bc38edfa2","v":"dead","n":1,"at":1787713878,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:074beb5964136653918157571fd66977","v":"dead","n":1000000000,"at":1783628699,"bk":["news.easynews.com","news.frugalusenet.com","news.newshosting.com"]}
+{"k":"wd1:074bf980a0524f3cb946171eaf7cc0ee","v":"dead","n":1,"at":1794944115,"bk":["news.newshosting.com","newshosting.tweaknews.eu","nntp.torbox.app","secure-eu.news.easynews.com"]}
 {"k":"wd1:074c53932389407158d1b84ae4ec49df","v":"dead","n":1000000000,"at":1781071110,"bk":["news.frugalusenet.com","news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:074c74048f2823bc91ccc30b4834f6f4","v":"dead","n":1000000000,"at":1781038844,"bk":["news.frugalusenet.com","news.newshosting.com"]}
 {"k":"wd1:074c8973fa07ec0640caae9c20a39f1f","v":"dead","n":1000000000,"at":1780978759,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
@@ -25244,6 +25255,7 @@
 {"k":"wd1:18bb304be1058fc0bd11530cd69b8399","v":"dead","n":1000000000,"at":1781205786,"bk":["news.easynews.com","news.newshosting.com","news.usenetexpress.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:18bb6eb74a71e1c204b6be6942f03f8a","v":"dead","n":1000000000,"at":1781068880,"bk":["news.easynews.com","news.newshosting.com"]}
 {"k":"wd1:18bbe1a0ba2ddc428a1cb714a205ade7","v":"dead","n":1,"at":1789939940,"bk":["eweka.nl","newsgroupdirect.com","newshosting.com"]}
+{"k":"wd1:18bdbdbed10430bd04f8737d76eab669","v":"dead","n":4,"at":1794949593,"bk":["eu-tst.newsgroupdirect.com","news.eweka.nl","news.newshosting.com","news.usenet.farm","newshosting.tweaknews.eu","secure-eu.news.easynews.com"]}
 {"k":"wd1:18bdc07ca152c5c6285f05bd51ab31a0","v":"dead","n":1000000000,"at":1781159000,"bk":["news.easynews.com","news.newshosting.com"]}
 {"k":"wd1:18be2e586e32a7f87c575db77d082350","v":"dead","n":7881194,"at":1781748675,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:18be8a25d2938b67c94bec0e7c8d8a95","v":"dead","n":1,"at":1782685628,"bk":["eu.newsdemon.com","news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu","nl.newsdemon.com","us.newsdemon.com","uswest.newsdemon.com"]}
@@ -27450,6 +27462,7 @@
 {"k":"wd1:1ba86031514bdce9d9dccde588911b42","v":"dead","n":7881194,"at":1781771056,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:1ba8f2f8c3c7fa9f8bd8b1f2498883ae","v":"dead","n":1000000000,"at":1780952578,"bk":["news.frugalusenet.com","news.newshosting.com"]}
 {"k":"wd1:1ba990f9fe8638f261d66f83baeea85e","v":"dead","n":1000000000,"at":1781273695,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
+{"k":"wd1:1ba99c4d2f56e579b290b5adbd8bd373","v":"dead","n":1,"at":1794952171,"bk":["news.frugalusenet.com","news.newshosting.com"]}
 {"k":"wd1:1ba9feb59b1110e0f3db1b8d9456b432","v":"dead","n":1000000000,"at":1781067711,"bk":["news.frugalusenet.com","news.newshosting.com"]}
 {"k":"wd1:1baab401c630e0dae6d27a76f423b640","v":"dead","n":7881194,"at":1781748418,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:1bab016b15301f1535c6f3b56de4869f","v":"dead","n":1,"at":1789939940,"bk":["eweka.nl","newsgroupdirect.com","newshosting.com"]}
@@ -27499,6 +27512,7 @@
 {"k":"wd1:1bbc643fcdc4f6b97a83dd641249af90","v":"dead","n":1000000000,"at":1781163452,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:1bbcb2c497210559ea80b39566cf30bb","v":"dead","n":2,"at":1789939940,"bk":["eweka.nl","newsgroupdirect.com","newshosting.com"]}
 {"k":"wd1:1bbcd210311e246006da8ec9af745030","v":"dead","n":1000000000,"at":1781363759,"bk":["news.frugalusenet.com","news.newshosting.com"]}
+{"k":"wd1:1bbd5d80dd39af5f6fa105257a139194","v":"dead","n":1,"at":1794952757,"bk":["news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu"]}
 {"k":"wd1:1bbd6a58ce3532ee5df6e3441f63c414","v":"dead","n":7881194,"at":1781730868,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:1bbd6e809f459045a9bd664aa98c4f0b","v":"dead","n":1000000000,"at":1781213949,"bk":["news.newshosting.com"]}
 {"k":"wd1:1bbdaeaae9caa6ae65564fc7cc6af844","v":"dead","n":1,"at":1793170990,"bk":["omicron","usenetexpress"]}
@@ -46694,6 +46708,7 @@
 {"k":"wd1:35a4c810a091a7c9f9e6d7c696c6e406","v":"dead","n":1000000000,"at":1781449420,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:35a525fc296a58e1310a14917741c041","v":"dead","n":1,"at":1789939940,"bk":["eweka.nl","newsgroupdirect.com","newshosting.com"]}
 {"k":"wd1:35a5427f4ad0d6e624f5a3140521642e","v":"dead","n":1000000000,"at":1781209264,"bk":["news.newsgroupdirect.com","news.newshosting.com"]}
+{"k":"wd1:35a574de275fab28557c498f8eb359b8","v":"dead","n":1,"at":1794938396,"bk":["abavia","eweka-internet-services","omicron","usenetexpress","uzo-reto"]}
 {"k":"wd1:35a5a9be7532041b51411331d7742758","v":"dead","n":1000000000,"at":1781345357,"bk":["news.frugalusenet.com","news.newshosting.com"]}
 {"k":"wd1:35a5aa63f31e0933f4097e5aca16d210","v":"dead","n":1,"at":1789388783,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:35a5b23abaa02cfc5e1a5f732fda8130","v":"dead","n":1000000000,"at":1780961625,"bk":["news.frugalusenet.com","news.newshosting.com"]}
@@ -50526,6 +50541,7 @@
 {"k":"wd1:3ad731c185b8f5253ad3f1e899796909","v":"dead","n":6765,"at":1782064085,"bk":["news.newshosting.com"]}
 {"k":"wd1:3ad76e014b9c8f102d258e2bf2b5c379","v":"dead","n":1000000000,"at":1781308303,"bk":["eu.newsdemon.com","news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu","nl.newsdemon.com","us.newsdemon.com","uswest.newsdemon.com"]}
 {"k":"wd1:3ad7c578f0adc50335e56433f7b42b5e","v":"dead","n":1000000000,"at":1781318757,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
+{"k":"wd1:3ad7f7b61d8a529ec97eb6e529e1fe46","v":"dead","n":1,"at":1794956147,"bk":["abavia","eweka-internet-services","omicron","usenetexpress","uzo-reto"]}
 {"k":"wd1:3ad8236434903db31aa849031cbac66e","v":"dead","n":1000000000,"at":1781208447,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:3ad84485b16ab4e2227a49a0de3edddf","v":"dead","n":7881194,"at":1781766057,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:3ad8a820b107316ccccfe2b376d882ae","v":"dead","n":1000000000,"at":1781268634,"bk":["news.newshosting.com"]}
@@ -50984,6 +51000,7 @@
 {"k":"wd1:3b77d98259b995b6946417cdca6b5e61","v":"dead","n":1000000000,"at":1781130831,"bk":["news.frugalusenet.com","news.newshosting.com"]}
 {"k":"wd1:3b781bff5b10d1c32ddef14a12edab2b","v":"dead","n":1000000000,"at":1781273703,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:3b7822dc78d9df4c41496a430e566ffd","v":"dead","n":1000000000,"at":1780966176,"bk":["bonus.frugalusenet.com","news.easynews.com","news.frugalusenet.com","news.newsdemon.com","news.newshosting.com","news.thundernews.com","newshosting.tweaknews.eu"]}
+{"k":"wd1:3b7832ba63c14bfb8e667d312e2b47a1","v":"dead","n":1,"at":1794952174,"bk":["news.frugalusenet.com","news.newshosting.com"]}
 {"k":"wd1:3b78b5da82f17efe385068456a8fd37b","v":"dead","n":1,"at":1789369639,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:3b78d683b2a30dda179a7a9ee0927d0b","v":"dead","n":1000000000,"at":1780864602,"bk":["news.frugalusenet.com","news.newshosting.com"]}
 {"k":"wd1:3b78fba6ff433b4b82cd5028730428b7","v":"dead","n":1000000000,"at":1780983698,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
@@ -55660,6 +55677,7 @@
 {"k":"wd1:41bb884d1fb42a65e206869c46dc42d9","v":"dead","n":2,"at":1785321779,"bk":["eu.newsdemon.com","news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu","nl.newsdemon.com","us.newsdemon.com","uswest.newsdemon.com"]}
 {"k":"wd1:41bba104771c20c7b600f4910688d982","v":"dead","n":1000000000,"at":1782416394,"bk":["news.easynews.com","news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:41bc2d780231512b710ab46c63f8e065","v":"dead","n":1000000000,"at":1781357885,"bk":["news.frugalusenet.com","news.newshosting.com"]}
+{"k":"wd1:41bc861a8e1448bb528954a417ee648d","v":"dead","n":1,"at":1794949577,"bk":["netnews","omicron","usenetexpress"]}
 {"k":"wd1:41bcc12a615509fded43c616eced14f8","v":"dead","n":1000000000,"at":1781083118,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:41bd47ae4a488c6b024489368d342981","v":"dead","n":1000000000,"at":1780971907,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:41be30eced43d8863b922963d31fbf03","v":"dead","n":1000000000,"at":1781079018,"bk":["news.easynews.com","news.newshosting.com"]}
@@ -55835,6 +55853,7 @@
 {"k":"wd1:41f93f084c846edf28f8539f0aa136fc","v":"dead","n":1000000000,"at":1781002074,"bk":["aunews.frugalusenet.com","bonus.frugalusenet.com","news.frugalusenet.com","news.newsdemon.com","news.newshosting.com","usenet.premiumize.me"]}
 {"k":"wd1:41f9abe297a40737ebb392954440b920","v":"dead","n":11,"at":1787403995,"bk":["news-eu.newshosting.com","newshosting.tweaknews.eu","nntp.torbox.app","secure-eu.news.easynews.com"]}
 {"k":"wd1:41f9d0ca6227d572f329e234a2106e12","v":"dead","n":1,"at":1785025580,"bk":["eu.newsdemon.com","news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu","nl.newsdemon.com","us.newsdemon.com","uswest.newsdemon.com"]}
+{"k":"wd1:41fa55266e0ca3960960e13f9b9ff591","v":"dead","n":2,"at":1794956298,"bk":["abavia","eweka-internet-services","omicron","usenetexpress","uzo-reto"]}
 {"k":"wd1:41fa9f31b886e616d6f49594db360cea","v":"dead","n":1000000000,"at":1781013438,"bk":["news.frugalusenet.com","news.newshosting.com"]}
 {"k":"wd1:41fb0b6efeb6cdeaae75833175d65c12","v":"dead","n":1,"at":1789939940,"bk":["eweka.nl","newsgroupdirect.com","newshosting.com"]}
 {"k":"wd1:41fb10dd8d39ef686c1ad9efc80d5b43","v":"dead","n":1,"at":1789398187,"bk":["news.newsdemon.com","news.newshosting.com"]}
@@ -58979,6 +58998,7 @@
 {"k":"wd1:4634b00bda22647a5b9e34a865ec705c","v":"dead","n":1000000000,"at":1781353525,"bk":["news.easynews.com","news.newshosting.com","news.usenetexpress.com"]}
 {"k":"wd1:46350fd1b2564fff82f4cd8a7668f46b","v":"dead","n":1000000000,"at":1781442626,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:4635d5816920a2e533db541a526b407b","v":"dead","n":1000000000,"at":1781461121,"bk":["news.easynews.com","news.frugalusenet.com","news.newshosting.com"]}
+{"k":"wd1:4635f2f3bf9b9bd7aed116d08580f9b3","v":"dead","n":1,"at":1794938395,"bk":["abavia","eweka-internet-services","omicron","usenetexpress","uzo-reto"]}
 {"k":"wd1:46370e8f4a441985be48ef95c82f411d","v":"dead","n":1000000000,"at":1781448326,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:46370fecd8b9f8a1ffe069f648701046","v":"dead","n":1000000000,"at":1781123706,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:4637711f6149ef8472bb10c725dc81a2","v":"dead","n":1000000000,"at":1781253549,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
@@ -65472,6 +65492,7 @@
 {"k":"wd1:4ee37e0163aa5350260dd5fc0793aea0","v":"dead","n":1000000000,"at":1781493827,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:4ee3ce83ef0daf5b322b996255d0fcf9","v":"dead","n":1000000000,"at":1781322651,"bk":["news.newshosting.com"]}
 {"k":"wd1:4ee43267b07c45961357bfa82fbacd4b","v":"dead","n":1,"at":1783389220,"bk":["news.newsdemon.com","news.newshosting.com"]}
+{"k":"wd1:4ee53c859ff2b6113e299ad76670485f","v":"dead","n":15,"at":1794951208,"bk":["news.newshosting.com","newshosting.tweaknews.eu","nntp.torbox.app","secure-eu.news.easynews.com"]}
 {"k":"wd1:4ee55e94f856837d02704f23b3b2148e","v":"dead","n":1000000000,"at":1781123537,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:4ee58ab951867cdc9ed7b1b87841cdc8","v":"dead","n":433494436,"at":1781607679,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:4ee592ec6bf73eed955373bcac163ff2","v":"dead","n":1000000000,"at":1781080083,"bk":["news.easynews.com"]}
@@ -69200,6 +69221,7 @@
 {"k":"wd1:53bb8af601c0588f788d7e1329c99f3c","v":"dead","n":1000000000,"at":1781059042,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:53bbac52b8786339088884342b4b0110","v":"dead","n":1000000000,"at":1781027520,"bk":["news.newshosting.com"]}
 {"k":"wd1:53bc05bef484c9647f671c01c58715d0","v":"dead","n":1000000000,"at":1781258195,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
+{"k":"wd1:53bca6ab16eae705cf912d93e44d3b61","v":"dead","n":1,"at":1794939217,"bk":["abavia","omicron","usenetexpress"]}
 {"k":"wd1:53bcdb8fe74649572398a3186bd0bf89","v":"dead","n":7881194,"at":1781780828,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:53bd0ae3025c43c60f45348bbada6af1","v":"dead","n":1000000000,"at":1780956989,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:53bd4649665b17cf28126979bbb96847","v":"dead","n":1000000000,"at":1781025086,"bk":["news.easynews.com","news.newshosting.com"]}
@@ -69228,6 +69250,7 @@
 {"k":"wd1:53c36fdcc07012d032a073d6e77d5e6c","v":"dead","n":1000000000,"at":1781025737,"bk":["news.easynews.com","news.newshosting.com"]}
 {"k":"wd1:53c374416409fcf82f91605b0933a407","v":"dead","n":1000000000,"at":1781308385,"bk":["eu.newsdemon.com","news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu","nl.newsdemon.com","us.newsdemon.com","uswest.newsdemon.com"]}
 {"k":"wd1:53c3cd887ac2540e5efd632af77537a9","v":"dead","n":14930351,"at":1781738381,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
+{"k":"wd1:53c3dd76d91ec4978f9dc6c73c5bde4d","v":"dead","n":1,"at":1794938434,"bk":["abavia","eweka-internet-services","omicron","usenetexpress","uzo-reto"]}
 {"k":"wd1:53c3ea65b11c8e4d22f7fa92bfac85ed","v":"dead","n":1000000000,"at":1781371708,"bk":["news.frugalusenet.com","news.newshosting.com"]}
 {"k":"wd1:53c40f7cd6e5f451b35a0800f9582cb6","v":"dead","n":1000000000,"at":1781466349,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:53c4d5e7c989db41d764db520ff051c5","v":"dead","n":1000000000,"at":1781375290,"bk":["news.newshosting.com"]}
@@ -71657,7 +71680,7 @@
 {"k":"wd1:5716909ddf8d618355fa69583aaaa7db","v":"dead","n":1000000000,"at":1780864241,"bk":["news.frugalusenet.com","news.newshosting.com"]}
 {"k":"wd1:5716d17a949cdf76da1370f6589e6ffc","v":"dead","n":433494436,"at":1781602922,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:5716df631cd95cf77b784be4b1f88d05","v":"dead","n":1,"at":1789939940,"bk":["eweka.nl","newsgroupdirect.com","newshosting.com"]}
-{"k":"wd1:5716ed347c242738074db9214fd22edb","v":"dead","n":1000000000,"at":1781232158,"bk":["eu.newsdemon.com","news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu","nl.newsdemon.com","us.newsdemon.com","uswest.newsdemon.com"]}
+{"k":"wd1:5716ed347c242738074db9214fd22edb","v":"dead","n":1000000000,"at":1794939218,"bk":["abavia","eu.newsdemon.com","news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu","nl.newsdemon.com","omicron","us.newsdemon.com","usenetexpress","uswest.newsdemon.com"]}
 {"k":"wd1:5716f1caa08fdea7a1313abe32a3b5e1","v":"dead","n":1000000000,"at":1781208843,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:57179f5f04f0b4a7575201914f02fa41","v":"dead","n":1000000000,"at":1781025692,"bk":["news.easynews.com","news.newshosting.com"]}
 {"k":"wd1:5718953ff3d386227467bcaab0a9a5b5","v":"dead","n":1,"at":1783873991,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
@@ -81309,6 +81332,7 @@
 {"k":"wd1:644f1803b5549e7be925dfb8dd510655","v":"dead","n":1000000000,"at":1780976825,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:644f43f4da106578e57a7dc702bfb417","v":"dead","n":1000000000,"at":1781340875,"bk":["news.newshosting.com"]}
 {"k":"wd1:6450110a0daa4ab4a95d519c67c61dd3","v":"dead","n":945165211,"at":1781444339,"bk":["news.newsgroupdirect.com","news.newshosting.com"]}
+{"k":"wd1:64502a26f1093c12656ca6362142b5f0","v":"dead","n":5,"at":1794943819,"bk":["news.newshosting.com","newshosting.tweaknews.eu","nntp.torbox.app","secure-eu.news.easynews.com"]}
 {"k":"wd1:64503fc8d511ed1c2d642960008f0dc3","v":"dead","n":535828591,"at":1781578435,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:645102be3eda93dc22414894618eec1d","v":"dead","n":7881194,"at":1781747710,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:6451199e04a8d2f1ad182c18da2e0194","v":"dead","n":1000000000,"at":1781388844,"bk":["eu.newsdemon.com","news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu","nl.newsdemon.com","us.newsdemon.com","uswest.newsdemon.com"]}
@@ -83113,6 +83137,7 @@
 {"k":"wd1:66ab5558667483a596a242300522404e","v":"dead","n":1000000000,"at":1781012053,"bk":["eu.newsdemon.com","news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu","nl.newsdemon.com","us.newsdemon.com","uswest.newsdemon.com"]}
 {"k":"wd1:66ac503740a543140995a0f2a072e50f","v":"dead","n":1000000000,"at":1781350645,"bk":["news.newshosting.com"]}
 {"k":"wd1:66accbd2b4a40be14efab10386ef8b96","v":"dead","n":1000000000,"at":1781054299,"bk":["news.easynews.com","news.eweka.nl","news.newshosting.com","reader.easyusenet.nl"]}
+{"k":"wd1:66ad476e53f5bfa6e3e251ffa9025f54","v":"dead","n":1,"at":1794938398,"bk":["abavia","eweka-internet-services","omicron","usenetexpress","uzo-reto"]}
 {"k":"wd1:66ad51a88b5a82bec61f0e4b2179b9bd","v":"dead","n":1000000000,"at":1781048048,"bk":["news.easynews.com","news.newshosting.com"]}
 {"k":"wd1:66adb601eb7d6319a56139b29ac91b20","v":"dead","n":1,"at":1782506615,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:66adc126751cac6d88568ce533f8b2ee","v":"dead","n":1000000000,"at":1781317826,"bk":["news.easynews.com","news.eweka.nl","news.newshosting.com","reader.easyusenet.nl"]}
@@ -89303,6 +89328,7 @@
 {"k":"wd1:6f069cd32ec0403b4247acfb2783975d","v":"dead","n":1000000000,"at":1780951150,"bk":["news.frugalusenet.com","news.newshosting.com"]}
 {"k":"wd1:6f077b31ae05a1cc903ba0658ec7d53a","v":"dead","n":1000000000,"at":1781229557,"bk":["news.easynews.com","news.eweka.nl","news.newshosting.com","reader.easyusenet.nl"]}
 {"k":"wd1:6f08730bcc16d59975981e7c95a11206","v":"dead","n":1000000000,"at":1781240402,"bk":["news.newshosting.com"]}
+{"k":"wd1:6f08cff521320621b1b7cf4aee7f3530","v":"dead","n":5,"at":1794943819,"bk":["news.newshosting.com","newshosting.tweaknews.eu","nntp.torbox.app","secure-eu.news.easynews.com"]}
 {"k":"wd1:6f09bf032c60769032c3e06bd42d46e0","v":"dead","n":1000000000,"at":1780976672,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:6f0a048594b55e3e25d5f938214fe6c3","v":"dead","n":1000000000,"at":1781090822,"bk":["news.easynews.com","news.newshosting.com","news.usenetexpress.com"]}
 {"k":"wd1:6f0a0a0609245727728c6f87194c2b78","v":"dead","n":24157816,"at":1781720361,"bk":["news.easynews.com","news.newshosting.com","news.usenetexpress.com"]}
@@ -101826,6 +101852,7 @@
 {"k":"wd1:800f690ac0a248f7406ed636824307d8","v":"dead","n":1000000000,"at":1781081752,"bk":["news.easynews.com","news.newshosting.com"]}
 {"k":"wd1:800fb2a2a06a6c1b14c88099c67bfa7a","v":"dead","n":1000000000,"at":1781107142,"bk":["news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:8010c16fc5d11cd244b02131034f2438","v":"dead","n":1,"at":1791116362,"bk":["news.easynews.com","news.newsgroup.ninja"]}
+{"k":"wd1:8010df668bb5398ad0b181288c24a66c","v":"dead","n":1,"at":1794944116,"bk":["news.newshosting.com","newshosting.tweaknews.eu","nntp.torbox.app","secure-eu.news.easynews.com"]}
 {"k":"wd1:801136fea02e80d3100527c771aa5ba0","v":"dead","n":1000000000,"at":1781293288,"bk":["bonus.usenetprime.com","news.easynews.com","news.frugalusenet.com","news.newsdemon.com","news.newsgroup.ninja","news.newsgroupdirect.com","news.newshosting.com","news.thundernews.com","news.usenetprime.com","newsgroupninja.tweaknews.eu","newshosting.tweaknews.eu"]}
 {"k":"wd1:80127b771a489b78b4a2055a54623227","v":"dead","n":1000000000,"at":1781251533,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:8012a6f0e6c83eae7b691c12188e3dbd","v":"dead","n":1000000000,"at":1780963419,"bk":["news.easynews.com","news.eweka.nl","news.newshosting.com","reader.easyusenet.nl"]}
@@ -104833,6 +104860,7 @@
 {"k":"wd1:842a0a3064f928bb5a755d1cdd859af8","v":"dead","n":1,"at":1789393402,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:842a6a9133a866e422006e7e1e08470b","v":"dead","n":1,"at":1789939940,"bk":["eweka.nl","newsgroupdirect.com","newshosting.com"]}
 {"k":"wd1:842a75b3b9b1ff1dadcf9724f956b460","v":"dead","n":945161030,"at":1781465391,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
+{"k":"wd1:842bf07c3b8f3b3db786b63529211397","v":"dead","n":1,"at":1794938395,"bk":["abavia","eweka-internet-services","omicron","usenetexpress","uzo-reto"]}
 {"k":"wd1:842c094f235b5b85111690ed9799a2be","v":"dead","n":1000000000,"at":1781170939,"bk":["eu.newsdemon.com","news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu","nl.newsdemon.com","us.newsdemon.com","uswest.newsdemon.com"]}
 {"k":"wd1:842c09909683937cff59cc4d4ea16182","v":"dead","n":1000000000,"at":1781050100,"bk":["news.easynews.com","news.newshosting.com"]}
 {"k":"wd1:842c1910d0816ee288613ffc64356f1f","v":"dead","n":1000000000,"at":1781010607,"bk":["news.easynews.com","news.newshosting.com"]}
@@ -111551,6 +111579,7 @@
 {"k":"wd1:8d338c3f549f006c7141fa123f7479f2","v":"dead","n":1000000000,"at":1781052024,"bk":["news.newshosting.com"]}
 {"k":"wd1:8d33a7005037d4d037cb9fa133b3c836","v":"dead","n":1000000000,"at":1781048399,"bk":["news.easynews.com","news.newshosting.com"]}
 {"k":"wd1:8d33bc45682448b5d66b834b8fe41e5c","v":"dead","n":1000000000,"at":1781080586,"bk":["news.easynews.com","news.newshosting.com","news.usenetexpress.com"]}
+{"k":"wd1:8d3483e9eec1f1379eeb569c007b5675","v":"dead","n":1,"at":1794938436,"bk":["abavia","eweka-internet-services","omicron","usenetexpress","uzo-reto"]}
 {"k":"wd1:8d34a5effe7bf085fb0155e51dfb55d4","v":"dead","n":1000000000,"at":1781126533,"bk":["news.frugalusenet.com","news.newshosting.com"]}
 {"k":"wd1:8d34bbfda581983a73875131f8ca3a34","v":"dead","n":1000000000,"at":1781286513,"bk":["news.newshosting.com"]}
 {"k":"wd1:8d34d7b621f6ed6f50a04618a0729be6","v":"dead","n":1000000000,"at":1781208621,"bk":["news.newsdemon.com","news.newshosting.com"]}
@@ -120038,6 +120067,7 @@
 {"k":"wd1:988610a27ef1436eb1b8e653d527b37f","v":"dead","n":1000000000,"at":1781032376,"bk":["news.newshosting.com"]}
 {"k":"wd1:98865d409181aaba08f5883c7944c53f","v":"dead","n":1,"at":1789361280,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:9886ba8ecbe4bd4be7d50074c56355c8","v":"dead","n":2,"at":1787500648,"bk":["farm.newsgroupdirect.com","news.bulknews.eu","news.eweka.nl","news.newsgroupdirect.com","secure-us.news.easynews.com","super.newsgroupdirect.com","viper.newsgroupdirect.com"]}
+{"k":"wd1:9886cc647da1077336f9355e74b7c833","v":"dead","n":4,"at":1794943819,"bk":["news.newshosting.com","newshosting.tweaknews.eu","nntp.torbox.app","secure-eu.news.easynews.com"]}
 {"k":"wd1:98874ee2bb07447540573f03b79698b6","v":"dead","n":1,"at":1783841748,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:988854bbfd315d28508686f396a03d07","v":"dead","n":1000000000,"at":1781259268,"bk":["eu.newsdemon.com","news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu","nl.newsdemon.com","us.newsdemon.com","uswest.newsdemon.com"]}
 {"k":"wd1:988860d0684688a3f07514e3500092d0","v":"dead","n":1,"at":1789939940,"bk":["eweka.nl","newsgroupdirect.com","newshosting.com"]}
@@ -137182,6 +137212,7 @@
 {"k":"wd1:afb327206c5e6012ba1f91ba8c19fb23","v":"dead","n":1,"at":1783842903,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:afb352587adb0657d0b2755196eb8daa","v":"dead","n":1000000000,"at":1781257570,"bk":["eu.newsdemon.com","news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu","nl.newsdemon.com","us.newsdemon.com","uswest.newsdemon.com"]}
 {"k":"wd1:afb391ff8c70d8223f50fbe72b6099de","v":"dead","n":740496901,"at":1781473908,"bk":["asnews.frugalusenet.com","aunews.frugalusenet.com","news.easynews.com","news.frugalusenet.com","news.newsdemon.com","news.newshosting.com","usenet.premiumize.me"]}
+{"k":"wd1:afb3cd2bdd2ff6a4fc357e2e3d975171","v":"dead","n":1,"at":1794938769,"bk":["netnews","omicron","usenetexpress"]}
 {"k":"wd1:afb3f59b64a3c7222971635da83fa147","v":"dead","n":1000000000,"at":1781230817,"bk":["news.easynews.com","news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:afb41fcbd0b84e3d347ef448311150b2","v":"dead","n":1,"at":1789939940,"bk":["eweka.nl","newsgroupdirect.com","newshosting.com"]}
 {"k":"wd1:afb479efaf636a3ee2d24999b8410ee5","v":"dead","n":1,"at":1786023650,"bk":["eu.newsdemon.com","news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu","nl.newsdemon.com","us.newsdemon.com","uswest.newsdemon.com"]}
@@ -137724,6 +137755,7 @@
 {"k":"wd1:b074eb9478d433b2987126453feda02e","v":"dead","n":1000000000,"at":1780930758,"bk":["news.frugalusenet.com","news.newshosting.com"]}
 {"k":"wd1:b074f216b9a6b226485563a9bda98804","v":"dead","n":1,"at":1783579904,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:b0753b8f8051f833ef90477d2b35625e","v":"dead","n":1000000000,"at":1781019195,"bk":["news.frugalusenet.com","news.newshosting.com"]}
+{"k":"wd1:b075adf5090957950f46532867cc9286","v":"dead","n":3,"at":1794949925,"bk":["eu-tst.newsgroupdirect.com","news.eweka.nl","news.newshosting.com","news.usenet.farm","newshosting.tweaknews.eu","secure-eu.news.easynews.com"]}
 {"k":"wd1:b07609c5f811178e62f5790b19755a8b","v":"dead","n":1,"at":1789939940,"bk":["eweka.nl","newsgroupdirect.com","newshosting.com"]}
 {"k":"wd1:b0760cf4b22847d39a0a19a2c8e7adf4","v":"dead","n":1000000000,"at":1781249568,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:b07632fa982fad317c6fd36ae47c5e38","v":"dead","n":1000000000,"at":1781047963,"bk":["news.easynews.com","news.newshosting.com"]}
@@ -146508,6 +146540,7 @@
 {"k":"wd1:bc7e9787028f8adfdd8f61d487d4d19d","v":"dead","n":1,"at":1789387598,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:bc7ec8af5b47a818ba11e78897971258","v":"dead","n":1000000000,"at":1781360767,"bk":["news.frugalusenet.com","news.newshosting.com"]}
 {"k":"wd1:bc7f5d4ab80c89e77162cd472d3e2336","v":"dead","n":1000000000,"at":1783555175,"bk":["bonus.frugalusenet.com","eunews.frugalusenet.com","europe.thecubenet.com","news.easynews.com","news.newsdemon.com","news.newshosting.com","news.usenet.farm"]}
+{"k":"wd1:bc7f8318dc54ed08c7b3f699e8a362e3","v":"dead","n":1,"at":1794952178,"bk":["news.frugalusenet.com","news.newshosting.com"]}
 {"k":"wd1:bc7fca82fa1bec7ce6e0df085774cf43","v":"dead","n":1000000000,"at":1780930610,"bk":["eu.newsdemon.com","news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu","nl.newsdemon.com","us.newsdemon.com","uswest.newsdemon.com"]}
 {"k":"wd1:bc7fcccb8a185f60934e03fdaf2e664d","v":"dead","n":1,"at":1789370524,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:bc7ffbb5451bb9e60fdeec33d3caf7cb","v":"dead","n":1,"at":1789939940,"bk":["eweka.nl","newsgroupdirect.com","newshosting.com"]}
@@ -147651,7 +147684,7 @@
 {"k":"wd1:bdf672f87620954b854f685bf7477bc6","v":"dead","n":46368,"at":1781965135,"bk":["news.easynews.com","news.eweka.nl","news.newshosting.com","newshosting.tweaknews.eu"]}
 {"k":"wd1:bdf683d5f9e6192d087bd51a98174f45","v":"dead","n":1000000000,"at":1780968282,"bk":["bonus.frugalusenet.com","news.easynews.com","news.frugalusenet.com","news.newsdemon.com","news.newshosting.com","news.thundernews.com","newshosting.tweaknews.eu"]}
 {"k":"wd1:bdf69aa50be1a3f63d31d57e32742fd3","v":"dead","n":1,"at":1789939940,"bk":["eweka.nl","newsgroupdirect.com","newshosting.com"]}
-{"k":"wd1:bdf6edde01c98c3f326ffccec53ee8a6","v":"dead","n":60,"at":1782333584,"bk":["news.easynews.com","news.frugalusenet.com","news.newsdemon.com","news.newsgroup.ninja","newsgroupninja.tweaknews.eu"]}
+{"k":"wd1:bdf6edde01c98c3f326ffccec53ee8a6","v":"dead","n":60,"at":1794952181,"bk":["news.easynews.com","news.frugalusenet.com","news.newsdemon.com","news.newsgroup.ninja","news.newshosting.com","newsgroupninja.tweaknews.eu"]}
 {"k":"wd1:bdf742d8f22b92944f1253d9c167f560","v":"dead","n":1000000000,"at":1781196269,"bk":["eu.newsdemon.com","news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu","nl.newsdemon.com","us.newsdemon.com","uswest.newsdemon.com"]}
 {"k":"wd1:bdf74727b42efee3aa921d25a9f0829f","v":"dead","n":2,"at":1789939940,"bk":["eweka.nl","newsgroupdirect.com","newshosting.com"]}
 {"k":"wd1:bdf77e3567745eafc269d53eefa9c534","v":"dead","n":945165211,"at":1781458294,"bk":["news.frugalusenet.com","news.newshosting.com"]}
@@ -151187,6 +151220,7 @@
 {"k":"wd1:c2a7812f435d71b10bb9636837d50fd0","v":"dead","n":1000000000,"at":1781168467,"bk":["eu.newsdemon.com","news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu","nl.newsdemon.com","us.newsdemon.com","uswest.newsdemon.com"]}
 {"k":"wd1:c2a797926d64d368f63da6394e511016","v":"dead","n":1000000000,"at":1781321631,"bk":["news.newsgroupdirect.com","news.newshosting.com"]}
 {"k":"wd1:c2a82437c41eb9c61d9314732a283465","v":"dead","n":1000000000,"at":1781311166,"bk":["news.easynews.com"]}
+{"k":"wd1:c2a833dcce93c5601f53bd1073b4fc08","v":"dead","n":1,"at":1794943804,"bk":["netnews","omicron","usenetexpress"]}
 {"k":"wd1:c2a8434839b9d7f089d23d074b4632b4","v":"dead","n":7881194,"at":1781744495,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:c2a885d3b5255b1fbd7c18f1deb5c9c1","v":"dead","n":1000000000,"at":1781119408,"bk":["news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:c2a89bb62668ba0b490d1a31f1a04c5c","v":"dead","n":165580140,"at":1781643503,"bk":["eu.newsdemon.com","news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu","nl.newsdemon.com","us.newsdemon.com","uswest.newsdemon.com"]}
@@ -158933,7 +158967,7 @@
 {"k":"wd1:cd39a958033ef710674030d80ab79e34","v":"dead","n":1,"at":1786408308,"bk":["news.easynews.com"]}
 {"k":"wd1:cd39dbfdf4f68a32d79e46c912a12e1b","v":"dead","n":1000000000,"at":1781117973,"bk":["news.easynews.com","news.newshosting.com"]}
 {"k":"wd1:cd3a151f6cb0bcdfb4f63ffe950b93d9","v":"dead","n":121393,"at":1781943634,"bk":["news.newshosting.com"]}
-{"k":"wd1:cd3b35855a7286ed1e88676774416167","v":"dead","n":1,"at":1794688535,"bk":["omicron"]}
+{"k":"wd1:cd3b35855a7286ed1e88676774416167","v":"dead","n":2,"at":1794948557,"bk":["abavia","eweka-internet-services","omicron","usenetexpress","uzo-reto"]}
 {"k":"wd1:cd3bcfe27de6d771bdfe5dc092a3a143","v":"dead","n":1000000000,"at":1781277379,"bk":["news.newshosting.com"]}
 {"k":"wd1:cd3be252676fcf7193a5c3184629386b","v":"dead","n":1000000000,"at":1781032120,"bk":["news.newshosting.com"]}
 {"k":"wd1:cd3c19d8899b6b442a24c79658b505db","v":"dead","n":1000000000,"at":1781023372,"bk":["aunews.frugalusenet.com","bonus.frugalusenet.com","news.easynews.com","news.frugalusenet.com","news.newsdemon.com","news.newshosting.com","usenet.premiumize.me"]}
@@ -160683,6 +160717,7 @@
 {"k":"wd1:cf9b57b383a9fb3e846f72e1a7620416","v":"dead","n":1000000000,"at":1781363469,"bk":["news.frugalusenet.com","news.newshosting.com"]}
 {"k":"wd1:cf9bedf0038528b2706383b912cc0652","v":"dead","n":1000000000,"at":1781095404,"bk":["news.frugalusenet.com","news.newshosting.com"]}
 {"k":"wd1:cf9c7b1c33e7e8d889d875708eb93c95","v":"dead","n":1000000000,"at":1781356570,"bk":["news.frugalusenet.com","news.newshosting.com"]}
+{"k":"wd1:cf9ca35d3a15007638627583f3cd9258","v":"dead","n":9,"at":1794952481,"bk":["news.newshosting.com","newshosting.tweaknews.eu","nntp.torbox.app","secure-eu.news.easynews.com"]}
 {"k":"wd1:cf9d12de74f9c0d5c9ebb29b28cc44f8","v":"dead","n":1000000000,"at":1781462405,"bk":["news.easynews.com","news.frugalusenet.com","news.newsdemon.com","news.newsgroup.ninja","newsgroupninja.tweaknews.eu"]}
 {"k":"wd1:cf9db85d57b088dfbca06e7fb5307c2f","v":"dead","n":1000000000,"at":1781016686,"bk":["news.frugalusenet.com","news.newshosting.com"]}
 {"k":"wd1:cf9dfcf6a3ccb31d871246e157f604cf","v":"dead","n":1000000000,"at":1781025027,"bk":["news.frugalusenet.com","news.newshosting.com"]}
@@ -166020,6 +166055,7 @@
 {"k":"wd1:d73460122f13c9945f5660239ea7c61e","v":"dead","n":1000000000,"at":1781358027,"bk":["news.frugalusenet.com","news.newshosting.com"]}
 {"k":"wd1:d734d68a184e36b673beb50b0ba7a213","v":"dead","n":1000000000,"at":1781217588,"bk":["news.easynews.com","news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:d734f1fba8eda70e9d78ee5b906c7418","v":"dead","n":46368,"at":1781949804,"bk":["news.easynews.com","news.eweka.nl","news.newshosting.com","newshosting.tweaknews.eu"]}
+{"k":"wd1:d734f74f4dc8748fa63f1c6c97bee023","v":"dead","n":10,"at":1794952481,"bk":["news.newshosting.com","newshosting.tweaknews.eu","nntp.torbox.app","secure-eu.news.easynews.com"]}
 {"k":"wd1:d734fb6c739688804721a36143b6fd15","v":"dead","n":1000000000,"at":1781256003,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:d735171cb535b3a145cf303e4076283e","v":"dead","n":1000000000,"at":1781057692,"bk":["news.easynews.com","news.newshosting.com"]}
 {"k":"wd1:d735b032a12c676482f41f3a2a197e4e","v":"dead","n":1000000000,"at":1781426455,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
@@ -168390,6 +168426,7 @@
 {"k":"wd1:da6d4c46c626a96979abd2cf6f71e013","v":"dead","n":1000000000,"at":1780973138,"bk":["news.frugalusenet.com","news.newshosting.com"]}
 {"k":"wd1:da6d53db05f2b16be0155b881f9337bf","v":"dead","n":1000000000,"at":1780936732,"bk":["news.frugalusenet.com","news.newshosting.com"]}
 {"k":"wd1:da6e2240fb9d54da1282574a4543188e","v":"dead","n":1000000000,"at":1781107755,"bk":["bonus.frugalusenet.com","news.easynews.com","news.frugalusenet.com","news.newsdemon.com","news.newshosting.com","news.thundernews.com","newshosting.tweaknews.eu"]}
+{"k":"wd1:da6e4557586099c167744a31bdef121c","v":"dead","n":1,"at":1794948558,"bk":["abavia","eweka-internet-services","omicron","usenetexpress","uzo-reto"]}
 {"k":"wd1:da6e51850f43730a4ebd2e07c7c6b79e","v":"dead","n":4870845,"at":1781820423,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:da6eaeb04363308f1758f3f086b4e87c","v":"dead","n":1000000000,"at":1781133191,"bk":["news.frugalusenet.com","news.newshosting.com"]}
 {"k":"wd1:da6eb3c86b1f2f1d16eabde6b2df8cb5","v":"dead","n":1000000000,"at":1781211464,"bk":["news.newsdemon.com","news.newshosting.com"]}
@@ -180992,6 +181029,7 @@
 {"k":"wd1:eb42554a31c0b3e8cf838fb08f8b2ac8","v":"dead","n":1000000000,"at":1781214241,"bk":["news.newshosting.com"]}
 {"k":"wd1:eb42b6a95532c123daa14bb9f4ec0b9d","v":"dead","n":7881194,"at":1781748939,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:eb42df3ac0c09efe21f388c214964ded","v":"dead","n":1000000000,"at":1781302822,"bk":["news.easynews.com","news.eweka.nl","news.newshosting.com","reader.easyusenet.nl"]}
+{"k":"wd1:eb4395f7461006346b36ee11bbe42c55","v":"dead","n":15,"at":1794951208,"bk":["news.newshosting.com","newshosting.tweaknews.eu","nntp.torbox.app","secure-eu.news.easynews.com"]}
 {"k":"wd1:eb43f0a43b470101ec3c98942fe6b353","v":"dead","n":1,"at":1789939940,"bk":["eweka.nl","newsgroupdirect.com","newshosting.com"]}
 {"k":"wd1:eb440d21f18ae35d1071bb35013bf66c","v":"dead","n":1000000000,"at":1780963483,"bk":["bonus.frugalusenet.com","news.easynews.com","news.frugalusenet.com","news.newsdemon.com","news.newshosting.com","news.thundernews.com","newshosting.tweaknews.eu"]}
 {"k":"wd1:eb44806b2da083b9a57dcea6a0cfd73b","v":"dead","n":433490253,"at":1781606914,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
@@ -182837,6 +182875,7 @@
 {"k":"wd1:edb79a39d81e3ba449dc569e79c4707f","v":"dead","n":1000000000,"at":1780972056,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:edb79d0f3482418e43f2f64a9b6e0e95","v":"dead","n":1000000000,"at":1781163113,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:edb7ad4ddbf2f7f4553f2475d444213a","v":"dead","n":7881194,"at":1781726823,"bk":["news.newsdemon.com","news.newshosting.com"]}
+{"k":"wd1:edb7e2e65a5031aa8fc547be72316bda","v":"dead","n":1,"at":1794943806,"bk":["netnews","omicron","usenetexpress"]}
 {"k":"wd1:edb8d76079d0e12124e51ff17e7023ad","v":"dead","n":1000000000,"at":1781041970,"bk":["news.newshosting.com"]}
 {"k":"wd1:edba06007475ea7df5e5b0458e1603f6","v":"dead","n":1000000000,"at":1780969913,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
 {"k":"wd1:edba734ca2a0c312a54cc64f3ff65c49","v":"dead","n":1000000000,"at":1781252623,"bk":["news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
@@ -185756,6 +185795,7 @@
 {"k":"wd1:f1ca4a25a45bbf4b9a79356044f6296c","v":"dead","n":1000000000,"at":1781208675,"bk":["news.easynews.com","news.frugalusenet.com","news.newsdemon.com","news.newsgroup.ninja","news.newshosting.com","newsgroupninja.tweaknews.eu"]}
 {"k":"wd1:f1ca92fd52d0f340931152056f78dcce","v":"dead","n":1000000000,"at":1781260391,"bk":["eu.newsdemon.com","news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu","nl.newsdemon.com","us.newsdemon.com","uswest.newsdemon.com"]}
 {"k":"wd1:f1caaf8e98e2471f7121055d422fdfc5","v":"dead","n":1000000000,"at":1781068575,"bk":["news.easynews.com","news.newshosting.com"]}
+{"k":"wd1:f1cac70133c18f66defa2ad517393135","v":"dead","n":1,"at":1794944120,"bk":["news.newshosting.com","newshosting.tweaknews.eu","nntp.torbox.app","secure-eu.news.easynews.com"]}
 {"k":"wd1:f1caffcbd2a8467e2f89ec154cb3cf7a","v":"dead","n":1,"at":1784818212,"bk":["eu.newsdemon.com","news.easynews.com","news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu","nl.newsdemon.com","us.newsdemon.com","uswest.newsdemon.com"]}
 {"k":"wd1:f1cb3087a8c8d5c927e51f3295b83c04","v":"dead","n":1000000000,"at":1781010016,"bk":["news.newsdemon.com","news.newshosting.com"]}
 {"k":"wd1:f1cc062930353e4ae4232fa218fb5038","v":"dead","n":1000000000,"at":1781465684,"bk":["news.newsdemon.com","news.newshosting.com","newshosting.tweaknews.eu","secure.news.easynews.com"]}
